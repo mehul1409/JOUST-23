@@ -1,0 +1,139 @@
+.memberbox {
+    background-color: whitesmoke;
+    padding-top: 2%;
+}
+
+.memberdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberdiv h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1E90FF;
+}
+
+.underline {
+    width: 375px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 2%;
+}
+
+.memberdiv h3 {
+    max-width: 50%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.profile img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 2% 17%;
+}
+
+.profile {
+    height: 240px;
+    width: 200px;
+    margin: 10% auto;
+    background-color: lavender;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+.profile ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:1%;
+}
+
+.profile div {
+    text-align: center;
+    color: rgb(45, 45, 45);
+}
+
+.profile ul li {
+    padding: 0px 5px;
+    font-size: 1.3rem;
+}
+
+.profile ul li:hover {
+    font-size: 1.6rem;
+    padding: 0px 3px;
+}
+
+.profile .name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.profile .role {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:1024px) {
+    .members {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .members {
+        grid-template-columns: auto auto;
+    }
+    .memberdiv h3 {
+        max-width: 75%;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .memberdiv h1 {
+        font-size: 2.3rem;
+    }
+    .memberdiv h3 {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .memberdiv h1 {
+        font-size: 2rem;
+    }
+    .memberdiv h3 {
+        max-width: 90%;
+    }
+
+    .profile img {
+        height: 110px;
+        width: 110px;
+        margin: 2% 18%;
+    }
+
+    .profile {
+        width: 170px;
+        height:215px;
+        margin:5% auto;
+    }
+    .members {
+        grid-template-columns: auto;
+    }
+    .underline {
+        width: 305px;
+    }
+}
+
+
+
