@@ -1,5 +1,5 @@
 .memberbox {
-    background-color: whitesmoke;
+    background-color: #080217;
     padding-top: 2%;
 }
 
@@ -19,7 +19,7 @@
 .underline {
     width: 375px;
     height: 2px;
-    background-color: black;
+    background-color:white;
     margin-bottom: 2%;
 }
 
@@ -27,6 +27,7 @@
     max-width: 50%;
     text-align: center;
     font-weight: 400;
+    color:white;
 }
 
 .members {
@@ -110,7 +111,7 @@
 
 @media only screen and (max-width:430px) {
     .memberdiv h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .memberdiv h3 {
         max-width: 90%;
@@ -132,6 +133,10 @@
     }
     .underline {
         width: 305px;
+    }
+
+    .underline {
+        width: 205px;
     }
 }
 

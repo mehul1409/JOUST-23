@@ -1,281 +1,172 @@
-.membersection {
+*{
+    margin: 0;
+    bottom: 0;
+}
+
+.competitionbox {
+    background-color: whitesmoke;
+    padding-top: 3%;
+}
+
+.competitiondiv {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     flex-direction: column;
-    height: 120vh;
-    background-color: rgb(20, 19, 19);
+    justify-content: center;
+    align-items: center;
+}
+
+.headingbox{
     position: relative;
 }
 
-.compete {
+.competitiondiv .bgheading{
+    position: absolute;
+    top: -50px;
+    left: -95px;
+    font-size: 5rem;
+    color:lavender;
+    z-index: auto;
+}
+
+.competitiondiv .heading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1E90FF;
+    z-index: 1;
+    position: relative;
+}
+
+.cunderline {
+    width: 375px;
+    height: 2px;
+    background-color: rgb(213, 213, 247);
+    margin-bottom: 2%;
+}
+
+.competitiondiv h3 {
+    max-width: 50%;
     text-align: center;
-    padding: 3%;
-    font-size: 3.5rem;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    color: transparent;
-    background-image: linear-gradient(to right, green, red, blue);
-    background-clip: text;
-    -webkit-background-clip: text;
+    font-weight: 400;
 }
 
-img {
-    width: 200px;
-    height: 200px;
+.competitions {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
-.container {
-    background-color: rgb(23, 23, 43);
-    position: relative;
-    width: 450px;
-    height: 500px;
-    border: 2px solid white;
-    border-radius: 50%;
-    margin: 100px 100px;
+.contentbox img {
+    height: 190px;
+    width: 210px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
-.container .icon {
-    position: relative;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.container .icon .imgbox {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    overflow: hidden;
-    transform: 0.5s;
-    border: 1px solid white;
-    box-shadow: 0 0 0 4px black, 0 0 0 6px white;
-    transform: rotate(calc(360deg/8*var(--i)));
-    transform-origin: 270px;
-    z-index: 100;
-    overflow: hidden;
-}
-
-.container .icon .imgbox.active {
-    box-shadow: 0 0 0 3px black, 0 0 0 6px red;
-}
-
-.container .icon .imgbox img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: rotate(calc(-360deg/8*var(--i)));
-    transition: 0.5s;
-    filter: grayscale(1);
-}
-
-.container .icon .imgbox.active img {
-    filter: grayscale(0);
-}
-
-.content {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content::before {
-    content: '';
-    position: absolute;
-    inset: 50px;
-    border-left: 3px solid blue;
-    border-right: 3px solid white;
-    border-radius: 50%;
-    animation: animate_01 4s ease-in infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-
-@keyframes animate_01 {
-    0% {
-        rotate: 0deg;
-    }
-
-    50% {
-        rotate: 180deg;
-    }
-
-    100% {
-        rotate: 360deg;
-    }
-}
-
-.content::after {
-    content: '';
-    position: absolute;
-    inset: 100px;
-    border-left: 3px solid red;
-    border-right: 3px solid green;
-    border-radius: 50%;
-    animation: animate_02 6s ease-in infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-
-@keyframes animate_02 {
-    0% {
-        rotate: 360deg;
-    }
-
-    50% {
-        rotate: 180deg;
-    }
-
-    100% {
-        rotate: 0deg;
-    }
+.competitionscontent:hover{
+    background-color: #1E90FF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .contentbox {
-    position: absolute;
-    transform: scale(0);
-    transition: 0.5s;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contentbox.active {
-    transform: scale(1);
-    opacity: 1;
-    transition-delay: 0.5s;
-}
-
-.contentbox .card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.contentbox .card .imgbox {
-    position: relative;
-    width: 170px;
-    height: 170px;
+    margin: 7% auto;
+    background-color: lavender;
+    cursor: pointer;
     border-radius: 20px;
-    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
 }
 
-.contentbox .card .imgbox img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.contentbox .card .textbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contentbox .card .textbox h2 {
-    position: relative;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-    line-height: 1em;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.contentbox .card .textbox h2 span {
-    font-size: 0.7em;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.contentbox .card .textbox .socialmedia {
-    position: relative;
-    display: flex;
-    gap: 5px;
-    margin-top: 7px;
-}
-
-.contentbox .card .textbox .socialmedia li {
+.contentbox ul {
     list-style: none;
-}
-
-.contentbox .card .textbox .socialmedia li a {
-    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: grey;
-    color: white;
-    padding: 5px 5px;
-    text-decoration: none;
+    justify-content: space-evenly;
+    margin-top:1%;
 }
 
-.contentbox .card .textbox .socialmedia li a:hover {
-    background-color: red;
+.contentbox div {
+    text-align: center;
+    color: rgb(45, 45, 45);
 }
 
-@media only screen and (max-width:620px) {
-    .container {
-        width: 350px;
-        height: 390px;
+.contentbox ul li {
+    padding: 7px 5px;
+    font-size: 1.3rem;
+}
+
+.contentbox ul li:hover {
+    font-size: 1.5rem;
+    padding: 3px 3px;
+}
+
+.contentbox .competitionname {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.profile .competitionabout {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:1320px) {
+    .competitions {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .competitions {
+        grid-template-columns: auto auto;
+    }
+    .competitiondiv h3 {
+        max-width: 75%;
     }
 
-    .container .icon .imgbox{
-        transform-origin: 210px;
+    .competitiondiv .heading{
+        font-size: 2.5rem;
     }
 
-    .container .icon .imgbox{
-        height:50px;
-        width:50px;
-    }
-
-    .compete{
+    .competitiondiv .bgheading{
         font-size: 3rem;
+        top: -25px;
+        left: -25px;
+    }
+    .cunderline{
+        width: 275px;
     }
 }
-
 @media only screen and (max-width:460px) {
-    .container {
-        width: 300px;
-        height:335px
+    .competitions {
+        grid-template-columns:auto auto;
+    }
+    .competitiondiv h3 {
+        max-width: 80%;
     }
 
-    .container .icon .imgbox{
-        transform-origin: 170px;
+    .competitiondiv .heading{
+        font-size: 2.2rem;
     }
 
-    .container .icon .imgbox{
-        height:35px;
-        width:35px;
+    .competitiondiv .bgheading{
+        font-size: 2.7rem;
+        top: -25px;
+        left: -25px;
     }
 
-    .compete{
-        font-size: 2.4rem;
+    .contentbox img {
+        height: 130px;
+        width: 150px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
     }
 
-    .contentbox .card .imgbox img{
-        width:80%;
-        height:90%;
-        left:12%;
+    .contentbox .competitionname{
+        font-size: 1.1rem;
     }
 }
+
+
+
+
+
+
