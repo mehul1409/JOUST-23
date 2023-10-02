@@ -169,6 +169,15 @@
     .rightSide .place{
         font-size: 1.3rem;
     }
+
+    .navBar a{
+        margin:0 6px;
+        font-size: 1.1rem;
+    }
+
+    .navBar{
+        justify-content: space-around;
+    }
 }
 
  @media only screen and (max-width:850px){

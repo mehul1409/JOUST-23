@@ -2,33 +2,33 @@ import './Competitions.css'
 
 const dataArr = [
     {
-        name:"mehul bansal",
+        name:"तर्कसंग्राम",
+        img:"/images/2.jpg",
+        role:"Hindi Debate ",
+        social:["https://www.instagram.com/parola.literaryhub","https://www.linkedin.com/company/parola-the-literary-hub/","https://www.facebook.com/Parola.LiteraryHub/"]
+    },
+    {
+        name:"VERSES",
+        img:"/images/6.jpg",
+        role:"Slam Poetry",
+        social:["","",""]
+    },
+    {
+        name:"PENNED",
+        img:"/images/5.jpg",
+        role:"Creative Writing",
+        social:["","",""]
+    },
+    {
+        name:"CEREBRATE",
+        img:"/images/4.jpg",
+        role:"English Conventional Debate",
+        social:["","",""]
+    },
+    {
+        name:"MUN",
         img:"/images/1.jpg",
-        role:"coordinator",
-        social:["","",""]
-    },
-    {
-        name:"siddanth",
-        img:"/images/mehul.jpg",
-        role:"sub-coordinator",
-        social:["","",""]
-    },
-    {
-        name:"demo",
-        img:"/images/mehul.jpg",
-        role:"demo",
-        social:["","",""]
-    },
-    {
-        name:"demo",
-        img:"/images/mehul.jpg",
-        role:"demo",
-        social:["","",""]
-    },
-    {
-        name:"demo",
-        img:"/images/mehul.jpg",
-        role:"demo",
+        role:"MODEL UNITED NATIONS",
         social:["","",""]
     }
 ]
@@ -43,7 +43,7 @@ const Competitions = () => {
                     <div className='heading'>COMPETITIONS</div>
                     </div>
                     <div className="cunderline"></div>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione numquam necessitatibus blanditiis fuga esse.</h3>
+                    <h3>Explore our thrilling competitions, where words become battlegrounds and ideas take center stage.</h3>
                 </div>
                 <div className="competitions">
                 {dataArr.map((data, index) => (
@@ -51,11 +51,13 @@ const Competitions = () => {
                             <img src={data.img} alt="" />
                             <div className="competitionscontent">
                             <div className='competitionname'>{data.name}</div>
+                            <div className='parentcompetitionabout'>
                             <div className='competitionabout'>{data.role}</div>
+                            </div>
                             <ul>
                                 <li><a href={data.social[0]}><i className="fa-brands fa-instagram"></i></a></li>
                                 <li><a href={data.social[1]}><i className="fa-brands fa-linkedin"></i></a></li>
-                                <li><a href={data.social[2]}><i className="fa-brands fa-github"></i></a></li>
+                                <li><a href={data.social[2]}><i className="fa-brands fa-facebook"></i></a></li>
                             </ul>
                             </div>
                         </div>

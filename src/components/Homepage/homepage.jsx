@@ -20,7 +20,7 @@ const Homepage = () => {
           left: `${posx}px`,
           top: `${posy}px`,
         },
-        {duration:500, fill:"backwards"}
+        { duration: 500, fill: "backwards" }
       );
     });
 
@@ -37,7 +37,6 @@ const Homepage = () => {
         <div class="cursor-dot" id="cursor-dot"></div>
         <div class="cursor-outline" id="cursor-outline"></div>
 
-
         <div className="hamburger">
           <div className="line"></div>
           <div className="line"></div>
@@ -49,6 +48,7 @@ const Homepage = () => {
           <div className='navbar-items'>
             <a href="#home">HOME</a>
             <a href="#aboutus">ABOUT US</a>
+            <a href="#aboutus">COMPETITIONS</a>
             <a href="#events">EVENTS</a>
             <a href="#contactus">CONTACT US</a>
           </div>
@@ -61,8 +61,8 @@ const Homepage = () => {
             </div>
             <div className='place'>JIIT - 62</div>
             <div className='homecontent'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse dicta, assumenda possimus vitae ea. Eos, recusandae? Sunt, amet atque.
-              Lorem ipsum dolor sit amet conslam accustempExplicabo molestiae a, eaque optio veniam officia ex asperiores fugiat, architecto repudiandae quos temporibus.
+              The official Literary Hub of JIIT Noida. With its highly dedicated and conscientious team, it acts as a catalyst to encourage the passion for literature among the students.<br /><br />
+              This Literary Hub isn't just a static library; it's a dynamic space filled with the energy of literary events. Beyond the books and events, it is a hub of intellectual discourse. It's a place where students and faculty gather to engage in meaningful discussions about literature, philosophy, and the written word's impact on society.
             </div>
             <div className="knowMoreButton">Know More</div>
           </div>

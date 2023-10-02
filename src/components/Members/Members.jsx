@@ -34,7 +34,7 @@ const Members = () => {
                 <div className="memberdiv">
                     <h1>OUR TEAM MEMBERS</h1>
                     <div className="underline"></div>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione numquam necessitatibus blanditiis fuga esse.</h3>
+                    <h3>Get to know the friendly faces behind the scenes, working together to promote literature and debate.</h3>
                 </div>
                 <div className="members">
                 {dataArr.map((data, index) => (

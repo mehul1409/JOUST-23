@@ -10,17 +10,16 @@ function Footer() {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/services">Events</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/competitions">Competitions</a></li>
             <li><a href="/contact">Contact us</a></li>
           </ul>
         </div>
         <div className="footer-info">
           <h3>Contact Info</h3>
           <div>
-            <p>Noida Electronic Society,Block A</p>
-            <p>Noida, UP 201009</p>
-            <p>Email: parola@gmail.com</p>
-            <p>Phone: 32456</p>
+            <p>Director of Parola:<br /> Shrinjal Gupta: +91 9818965385</p>
+            <p>EMAIL-PAROLA.LITSOC@GMAIL.COM</p>
           </div>
         </div>
         <div className="footer-social">
@@ -28,7 +27,7 @@ function Footer() {
           <div className="social-icons">
             <a href="https://www.facebook.com/Parola.LiteraryHub/"><i className="fa-brands fa-facebook"></i></a>
             <a href="https://www.linkedin.com/company/parola-the-literary-hub/"><i className="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/parola.literaryhub"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/parola.literaryhub"><i className="fa-brands fa-instagram"></i></a>
           </div>
         </div>
       </div>
