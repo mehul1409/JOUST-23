@@ -5,7 +5,7 @@
 
 .competitionbox {
     background-color: whitesmoke;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 .competitiondiv {
@@ -61,18 +61,16 @@
     border-top-left-radius: 20px;
 }
 
-.competitionscontent:hover{
-    background-color: #1E90FF;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
 .contentbox {
     margin: 7% auto;
     background-color: lavender;
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+.contentbox:hover{
+    background-color: #1E90FF;
 }
 
 .contentbox ul {

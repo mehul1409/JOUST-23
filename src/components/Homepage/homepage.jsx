@@ -47,7 +47,7 @@ const Homepage = () => {
           <div className='clubName' id="parola">PAROLA</div>
           <div className='navbar-items'>
             <a href="#homesection">HOME</a>
-            <a href="#aboutus">ABOUT US</a>
+            <a href="#joust">JOUST</a>
             <a href="#competition">COMPETITIONS</a>
             <a href="#events">EVENTS</a>
             <a href="#contactus">CONTACT US</a>

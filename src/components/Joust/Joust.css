@@ -1,0 +1,82 @@
+.joustsectionbg{
+    background-color: lavender;
+}
+
+.joustsection{
+    background-color: #080217;
+    padding:4%;
+    border-radius:20px;
+    margin:0% 2%;
+}
+
+.joustbox{
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+.bgjoust{
+    position: absolute;
+    font-size: 4.5rem;
+    color:rgb(148, 147, 147);
+}
+
+.joust{
+    position: relative;
+    z-index: 1;
+    font-size:3rem;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.joustcontent{
+    text-align: justify;
+    margin:2%;
+    color:white;
+    font-size:1.2rem;
+    line-height: 30px;
+}
+
+@media only screen and (max-width:820px){
+    .bgjoust{
+        font-size: 4rem;
+    }
+    .joust{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:630px){
+    .bgjoust{
+        font-size: 3rem;
+    }
+    .joust{
+        font-size: 1.9rem;
+    }
+    .joustcontent{
+        font-size:1rem;
+        margin:5%;
+        line-height: 25px;
+    }
+    .joustsection{
+        padding:6% 3%;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .bgjoust{
+        font-size: 2.2rem;
+    }
+    .joust{
+        font-size: 1.5rem;
+    }
+    .joustsection{
+        padding:6% 0%;
+    }
+    .joustcontent{
+        font-size:0.9rem;
+        margin:7%;
+        line-height: 22px;
+    }
+}
