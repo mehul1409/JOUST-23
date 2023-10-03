@@ -9,12 +9,12 @@ import Contactus from './components/Contactus/Contactus.jsx'
 const App = () => {
   return (
     <div>
-      {/* <Homepage />
+      <Homepage />
       <Competitions />
       <Events />
       <Members />
-      <Footer /> */}
       <Contactus />
+      <Footer />
     </div>
   )
 }
