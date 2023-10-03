@@ -3,7 +3,7 @@ import "./Events.css";
 const Events = () => {
     return (
         <>
-            <div className="eventsection">
+            <div className="eventsection" id="events">
                 <div className="eventheadingbox">
                     <div className="eventbgheading">EVENTS</div>
                     <div className="eventheading">OUR EVENTS</div>

@@ -8,11 +8,11 @@ function Footer() {
       <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/competitions">Competitions</a></li>
-            <li><a href="/contact">Contact us</a></li>
+            <li><a href="#homesection">Home</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#competition">Competitions</a></li>
+            <li><a href="#contactus">Contact us</a></li>
           </ul>
         </div>
         <div className="footer-info">

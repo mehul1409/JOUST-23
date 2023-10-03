@@ -32,7 +32,7 @@ const Homepage = () => {
 
   return (
     <>
-      <div className="homeSection">
+      <div className="homeSection" id="homesection">
 
         <div class="cursor-dot" id="cursor-dot"></div>
         <div class="cursor-outline" id="cursor-outline"></div>
@@ -44,11 +44,11 @@ const Homepage = () => {
         </div>
 
         <div className="navBar">
-          <div className='clubName'>PAROLA</div>
+          <div className='clubName' id="parola">PAROLA</div>
           <div className='navbar-items'>
-            <a href="#home">HOME</a>
+            <a href="#homesection">HOME</a>
             <a href="#aboutus">ABOUT US</a>
-            <a href="#aboutus">COMPETITIONS</a>
+            <a href="#competition">COMPETITIONS</a>
             <a href="#events">EVENTS</a>
             <a href="#contactus">CONTACT US</a>
           </div>

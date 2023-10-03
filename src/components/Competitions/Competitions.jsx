@@ -11,32 +11,32 @@ const dataArr = [
         name:"VERSES",
         img:"/images/6.jpg",
         role:"Slam Poetry",
-        social:["","",""]
+        social:["https://www.instagram.com/parola.literaryhub","https://www.linkedin.com/company/parola-the-literary-hub/","https://www.facebook.com/Parola.LiteraryHub/"]
     },
     {
         name:"PENNED",
         img:"/images/5.jpg",
         role:"Creative Writing",
-        social:["","",""]
+        social:["https://www.instagram.com/parola.literaryhub","https://www.linkedin.com/company/parola-the-literary-hub/","https://www.facebook.com/Parola.LiteraryHub/"]
     },
     {
         name:"CEREBRATE",
         img:"/images/4.jpg",
         role:"English Conventional Debate",
-        social:["","",""]
+        social:["https://www.instagram.com/parola.literaryhub","https://www.linkedin.com/company/parola-the-literary-hub/","https://www.facebook.com/Parola.LiteraryHub/"]
     },
     {
         name:"MUN",
         img:"/images/1.jpg",
         role:"MODEL UNITED NATIONS",
-        social:["","",""]
+        social:["https://www.instagram.com/parola.literaryhub","https://www.linkedin.com/company/parola-the-literary-hub/","https://www.facebook.com/Parola.LiteraryHub/"]
     }
 ]
 
 const Competitions = () => {
     return (
         <>
-            <div className="competitionbox">
+            <div className="competitionbox" id="competition">
                 <div className="competitiondiv">
                     <div className="headingbox">
                     <div className='bgheading'>COMPETITIONS</div>

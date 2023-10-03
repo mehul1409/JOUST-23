@@ -23,7 +23,7 @@ const Contactus = () => {
   };
 
   return (
-    <div className="contactsection">
+    <div className="contactsection" id="contactus">
       <div className="leftcontent">Subscribe To Get Latest Updates</div>
       <div className="rightcontent">
         <form ref={form} onSubmit={sendEmail} className="form">
