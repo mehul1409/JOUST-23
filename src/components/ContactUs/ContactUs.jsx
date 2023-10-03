@@ -19,8 +19,6 @@ const Contactus = () => {
           console.log(error.text);
         }
       );
-
-    // Clear the input value after submission
     setEmailValue('');
   };
 
