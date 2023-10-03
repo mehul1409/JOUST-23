@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer.jsx'
 import Events from './components/Events/Events.jsx'
 import Contactus from './components/Contactus/Contactus.jsx'
 import Joust from './components/Joust/Joust.jsx'
+import FAQ from './components/FAQ/FAQ.jsx'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Members />
       <Contactus />
       <Footer />
+      <FAQ />
     </div>
   )
 }
