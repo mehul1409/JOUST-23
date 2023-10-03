@@ -1,14 +1,15 @@
 import './homepage.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Homepage = () => {
+  const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
     const cursordot = document.querySelector("#cursor-dot");
     const cursoroutline = document.querySelector("#cursor-outline");
     const homeSection = document.querySelector(".homeSection");
 
-    homeSection.addEventListener("mousemove", function (event) {
+    const handleMouseMove = (event) => {
       const posx = event.clientX;
       const posy = event.clientY;
 
@@ -22,11 +23,26 @@ const Homepage = () => {
         },
         { duration: 500, fill: "backwards" }
       );
-    });
+    };
 
+    const handleScroll = () => {
+      setIsScrolling(true);
+      cursordot.style.display = 'none';
+      cursoroutline.style.display = 'none';
+
+      setTimeout(() => {
+        setIsScrolling(false);
+        cursordot.style.display = 'block';
+        cursoroutline.style.display = 'block';
+      }, 1000);
+    };
+
+    homeSection.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("mousemove", () => { });
+      homeSection.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
