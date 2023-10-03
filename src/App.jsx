@@ -4,15 +4,17 @@ import Competitions from './components/Competitions/Competitions.jsx'
 import Members from './components/Members/Members.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Events from './components/Events/Events.jsx'
+import Contactus from './components/Contactus/Contactus.jsx'
 
 const App = () => {
   return (
     <div>
-      <Homepage />
+      {/* <Homepage />
       <Competitions />
       <Events />
       <Members />
-      <Footer />
+      <Footer /> */}
+      <Contactus />
     </div>
   )
 }
