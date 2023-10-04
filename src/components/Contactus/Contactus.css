@@ -55,13 +55,10 @@
         font-size: 1.5rem;
     }
     .contactsection .rightcontent{
-        width:45%;
+        width:47%;
         #submit{
             font-size: 1rem;
         }
-    }
-    .contactsection .rightcontent{
-        border-radius: 12px;
     }
 } 
 
@@ -79,6 +76,9 @@
         #submit{
             font-size: 1rem;
         }
+    }
+    .emailinput{
+        border-radius: 4px;
     }
 }
 @media  only screen and (max-width:520px){
