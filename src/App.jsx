@@ -8,6 +8,7 @@ import Events from './components/Events/Events.jsx'
 import Contactus from './components/Contactus/Contactus.jsx'
 import Joust from './components/Joust/Joust.jsx'
 import FAQ from './components/FAQ/FAQ.jsx'
+import { Gallery } from './components/Gallery/Gallery'
 
 const App = () => {
   return (
@@ -17,10 +18,10 @@ const App = () => {
       <Competitions />
       <Events />
       <Members />
-      <Contactus />
-      <Footer />
-
       {/* <FAQ /> */}
+      <Contactus />
+      <Gallery />
+      <Footer />
     </div>
   )
 }

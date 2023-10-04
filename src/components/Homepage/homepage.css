@@ -160,6 +160,10 @@
     }
 }
 
+/* .navbar-items.mobilemenu {
+    display: none;
+  } */
+
 @media only screen and (max-width:1160px){
 
     .rightSide .society{

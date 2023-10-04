@@ -30,11 +30,15 @@ const questions = [
 
 function FAQ() {
   return (
-    <div className="container">
+    <div className="FAQcontainer">
       <div className="heading">How can we help you?</div>
       <section className="faq">
         {questions.map((item) => (
-          <Question key={item.id} question={item.question} answer={item.answer} />
+          <Question
+            key={item.id}
+            question={item.question}
+            answer={item.answer}
+          />
         ))}
       </section>
     </div>
@@ -49,9 +53,9 @@ const Question = (props) => {
   };
 
   return (
-    <div className="question-wrapper">
+    <div className="question-wrapper" onClick={handleClick}>
       <div className="question" id={props.id}>
-        <h3>{props.question}</h3>
+        <h4>{props.question}</h4>
         <button onClick={handleClick}>
           <svg
             className={isActive ? "active" : ""}

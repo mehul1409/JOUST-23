@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -6,13 +6,12 @@
   box-sizing: border-box;
 }
 
-:root {
-  --bg-color: #F6F8FC;
+/* :root {
+  --bg-color: #f6f8fc;
   --primary-text-color: #212943;
-  --secondary-text-color: #9EA6AE;
-  --details: #DEE4F1;
-}
-
+  --secondary-text-color: #9ea6ae;
+  --details: #dee4f1;
+} */
 
 .heading {
   color: var(--primary-text-color);
@@ -22,11 +21,12 @@
   text-align: center;
 }
 
-.container {
+.FAQcontainer {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  /* background-color: ; */
+  background-color: #6f57ff;
+  color: white;
 }
 
 .faq {
@@ -39,20 +39,26 @@
   margin: 0 auto;
   padding: 1rem;
   transition: 1s;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 .question {
   display: flex;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 300;
   color: var(--primary-text-color);
   justify-content: space-between;
+  /* padding: 12px; */
 }
 
 .question svg {
   width: 1rem;
   height: 1.5rem;
-  fill: var(--secondary-text-color);
+  /* fill: var(--secondary-text-color); */
+  fill: white;
 }
 
 .question svg.active {
@@ -79,7 +85,7 @@ button {
   padding-top: 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
-  color:black;
+  color: white;
   height: 0%;
   animation: slidein 0.4s;
   animation-fill-mode: forwards;
@@ -93,5 +99,20 @@ button {
   to {
     opacity: 1;
     transform: translateY(0%);
+  }
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile) */
+@media (max-width: 768px) {
+  .question-wrapper {
+    width: auto;
+  }
+
+  .question {
+    font-size: 1rem;
+  }
+
+  .answer.active {
+    padding-top: 1rem;
   }
 }
