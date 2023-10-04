@@ -60,6 +60,9 @@
             font-size: 1rem;
         }
     }
+    .contactsection .rightcontent{
+        border-radius: 12px;
+    }
 } 
 
 @media  only screen and (max-width:750px){
