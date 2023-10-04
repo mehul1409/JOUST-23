@@ -44,6 +44,7 @@
     margin-left:2%;
     margin-right:2%;
     border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4), 0 -3px 8px rgba(0, 0, 0, 0.4);
 }
 
 .eventbox .left {

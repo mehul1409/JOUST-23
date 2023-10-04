@@ -3,7 +3,7 @@ import "./Joust.css"
 const Joust = () => {
     return (
         <>
-            <div className="joustsectionbg">
+            <div className="joustsectionbg" id="joust">
             <div className="joustsection">
                 <div className="joustbox">
                     <div className="bgjoust">WHAT IS JOUST ?</div>
