@@ -86,7 +86,7 @@ button {
   font-size: 1rem;
   line-height: 1.5;
   color: white;
-  height: 0%;
+  /* height: 0%; */
   animation: slidein 0.4s;
   animation-fill-mode: forwards;
 }
