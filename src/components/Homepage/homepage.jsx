@@ -1,9 +1,12 @@
 import "./homepage.css";
 import React, { useEffect, useState } from "react";
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+import Greeting from "../Greeting/Greeting";
 
 const Homepage = () => {
-  const [isScrolling, setIsScrolling] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const cursordot = document.querySelector("#cursor-dot");
@@ -27,12 +30,10 @@ const Homepage = () => {
     };
 
     const handleScroll = () => {
-      setIsScrolling(true);
       cursordot.style.display = "none";
       cursoroutline.style.display = "none";
 
       setTimeout(() => {
-        setIsScrolling(false);
         cursordot.style.display = "block";
         cursoroutline.style.display = "block";
       }, 1000);
@@ -50,6 +51,9 @@ const Homepage = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
 
   return (
     <>
@@ -103,10 +107,18 @@ const Homepage = () => {
               discussions about literature, philosophy, and the written word's
               impact on society.
             </div>
-            <div className="knowMoreButton">Know More</div>
+            <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
+            <Modal open={open} onClose={onCloseModal} center>
+              <h1>JOUST</h1>
+              <Greeting />
+    
+            </Modal>
           </div>
         </div>
       </div>
+
+
+
     </>
   );
 };

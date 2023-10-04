@@ -39,7 +39,10 @@ const Members = () => {
                 <div className="members">
                 {dataArr.map((data, index) => (
                         <div className="profile" key={index}>
+                            <div className="profileimgbox">
                             <img src={data.img} alt="" />
+                            </div>
+                            <div className="profilecontentbox">
                             <div className='name'>{data.name}</div>
                             <div className='role'>{data.role}</div>
                             <ul>
@@ -47,6 +50,7 @@ const Members = () => {
                                 <li><a href={data.social[1]}><i className="fa-brands fa-linkedin"></i></a></li>
                                 <li><a href={data.social[2]}><i className="fa-brands fa-github"></i></a></li>
                             </ul>
+                            </div>
                         </div>
                     ))}
                 </div>

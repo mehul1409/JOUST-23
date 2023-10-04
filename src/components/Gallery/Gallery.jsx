@@ -19,13 +19,13 @@ export const Gallery = () => {
   return (
     <>
     <div className='GalleryDiv'>
-    <h1 className='Gh1'>Your Past Gallery</h1>
+    <div className='Gh1'>Our Past Gallery</div>
 
     <div className="Gallerycontainer">
       <div id="carousel">
         {imageSources.map((src, index) => (
-          <figure key={index} style={{ transform: `rotateY(${(index * 40)}deg) translateZ(288px)` }}>
-            <img src={src} alt={`Image ${index + 1}`} />
+          <figure key={index} style={{ transform: `rotateY(${(index * 40)}deg) translateZ(280px)` }}>
+            <img src={src} alt={`age ${index + 1}`} />
           </figure>
         ))}
       </div>

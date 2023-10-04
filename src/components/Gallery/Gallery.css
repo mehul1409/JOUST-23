@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 
-body {
-  background: black;
+.GalleryDiv{
+  padding:0.7rem;
+  background: #6f57ff;
 }
 
 .Gh1 {
-  color: lightblue;
-  font-family: 'Sacramento';
+  color: white;
+  letter-spacing: 1px;
   text-align: center;
   font-size: 40px;
+  font-weight: 500;
+  text-shadow: 2px 5px 1px black;
 }
 
 .Gp {
@@ -18,7 +21,7 @@ body {
 }
 
 .Gallerycontainer {
-  margin: 4% auto;
+  margin: 8% auto;
   width: 210px;
   height: 140px;
   position: relative;
@@ -71,6 +74,5 @@ figure img {
     
     .Gallerycontainer {
         perspective: none;
-
     }
   }

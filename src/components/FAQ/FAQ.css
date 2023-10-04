@@ -6,19 +6,14 @@
   box-sizing: border-box;
 }
 
-/* :root {
-  --bg-color: #f6f8fc;
-  --primary-text-color: #212943;
-  --secondary-text-color: #9ea6ae;
-  --details: #dee4f1;
-} */
-
 .heading {
   color: var(--primary-text-color);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
   text-align: center;
+  text-shadow: 2px 5px 1px black;
+
 }
 
 .FAQcontainer {
@@ -51,13 +46,11 @@
   font-weight: 300;
   color: var(--primary-text-color);
   justify-content: space-between;
-  /* padding: 12px; */
 }
 
 .question svg {
   width: 1rem;
   height: 1.5rem;
-  /* fill: var(--secondary-text-color); */
   fill: white;
 }
 
@@ -86,7 +79,6 @@ button {
   font-size: 1rem;
   line-height: 1.5;
   color: white;
-  /* height: 0%; */
   animation: slidein 0.4s;
   animation-fill-mode: forwards;
 }
@@ -102,8 +94,10 @@ button {
   }
 }
 
-/* Media query for screens with a maximum width of 768px (typical for mobile) */
 @media (max-width: 768px) {
+  .heading{
+    font-size: 2rem;
+  }
   .question-wrapper {
     width: auto;
   }

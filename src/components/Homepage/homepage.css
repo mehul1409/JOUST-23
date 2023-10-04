@@ -35,7 +35,7 @@
 
 .hamburger{
     position: absolute;
-    top:4%;
+    top:2%;
     right:6%;
     display: none;
 }
@@ -87,7 +87,7 @@
 .homePageContent{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding:5% 1%;
 }
 
@@ -101,7 +101,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width:45%;
+    max-width:55%;
 }
 
 .rightSide .society{
@@ -159,10 +159,6 @@
         left:0;
     }
 }
-
-/* .navbar-items.mobilemenu {
-    display: none;
-  } */
 
 @media only screen and (max-width:1160px){
 
@@ -230,17 +226,19 @@
 
     .navBar .clubName{
         position:absolute;
-        top:4%;
+        top:2%;
         left:6%;
     }
 
     .navbar-items{
         flex-direction: column;
-        background-color: rgb(109, 109, 113);
+        background-color: #6499E9;
         width:100%;
-        height:60vh;
+        padding:10%;
         margin-top:-2500px;
-        transition: all 0.5s ease-in-out;
+        transition: all 1s ease-in-out;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
     }
 
     .mobilemenu{
@@ -248,7 +246,13 @@
     }
 
     .navBar a{
-        margin-top:5%;
+        margin-top:12%;
+        font-weight: 500;
+    }
+
+    .navBar a:hover{
+        background-color: #9EDDFF;
+        padding:1px 10px;
     }
 }
 
@@ -278,3 +282,38 @@
     }
 
 }
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+     top: 0; 
+    left: 0; 
+    max-width: 70%;
+    margin: auto;
+    max-height: 1000px;
+
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 9999;
+  }
+  
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }

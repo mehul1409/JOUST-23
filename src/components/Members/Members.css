@@ -1,6 +1,6 @@
 .memberbox {
     background-color: #080217;
-    padding-top: 2%;
+    padding: 4% 0;
 }
 
 .memberdiv {
@@ -100,16 +100,8 @@
     }
 }
 
-@media only screen and (max-width:520px) {
-    .memberdiv h1 {
-        font-size: 2.3rem;
-    }
-    .memberdiv h3 {
-        max-width: 70%;
-    }
-}
 
-@media only screen and (max-width:430px) {
+@media only screen and (max-width:520px) {
     .memberdiv h1 {
         font-size: 1.6rem;
     }
@@ -124,9 +116,19 @@
     }
 
     .profile {
-        width: 170px;
-        height:215px;
-        margin:5% auto;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        width:80%;
+        height:fit-content;
+        margin:3% auto;
+    }
+    .profileimgbox{
+        flex-basis: 50%;
+    }
+    .profilecontentbox{
+        flex-basis: 50%;
+
     }
     .members {
         grid-template-columns: auto;
