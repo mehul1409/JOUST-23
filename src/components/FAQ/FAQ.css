@@ -13,23 +13,20 @@
   --details: #DEE4F1;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 10px;
-  background: var(--bg-color);
-}
 
 .heading {
   color: var(--primary-text-color);
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .container {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* background-color: ; */
 }
 
 .faq {
@@ -72,10 +69,6 @@ button {
   cursor: pointer;
 }
 
-button:focus {
-  outline: none;
-}
-
 .answer {
   display: none;
 }
@@ -84,10 +77,9 @@ button:focus {
   display: block;
   text-align: left;
   padding-top: 1.5rem;
-  font-weight: lighter;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
-  color: var(--secondary-text-color);
+  color:black;
   height: 0%;
   animation: slidein 0.4s;
   animation-fill-mode: forwards;

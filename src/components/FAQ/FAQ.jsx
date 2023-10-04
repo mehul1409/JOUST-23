@@ -31,7 +31,7 @@ const questions = [
 function FAQ() {
   return (
     <div className="container">
-      <h2 className="heading">How can we help you?</h2>
+      <div className="heading">How can we help you?</div>
       <section className="faq">
         {questions.map((item) => (
           <Question key={item.id} question={item.question} answer={item.answer} />
