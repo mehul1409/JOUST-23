@@ -12,6 +12,7 @@ const Homepage = () => {
     const cursordot = document.querySelector("#cursor-dot");
     const cursoroutline = document.querySelector("#cursor-outline");
     const homeSection = document.querySelector(".homeSection");
+    let scrollTimeout;
 
     const handleMouseMove = (event) => {
       const posx = event.clientX;
@@ -33,7 +34,8 @@ const Homepage = () => {
       cursordot.style.display = "none";
       cursoroutline.style.display = "none";
 
-      setTimeout(() => {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
         cursordot.style.display = "block";
         cursoroutline.style.display = "block";
       }, 1000);
@@ -58,6 +60,7 @@ const Homepage = () => {
   return (
     <>
       <div className="homeSection" id="homesection">
+
         <div class="cursor-dot" id="cursor-dot"></div>
         <div class="cursor-outline" id="cursor-outline"></div>
 
@@ -108,10 +111,25 @@ const Homepage = () => {
               impact on society.
             </div>
             <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
-            <Modal open={open} onClose={onCloseModal} center>
-              <h1>JOUST</h1>
+            <Modal
+              open={open}
+              onClose={onCloseModal}
+              center
+              styles={{
+                modal: {
+                  maxHeight: '90%',
+                  overflowY: 'auto',
+                  padding: '0'
+                },
+                closeButton: {
+                  height: '30px',
+                  backgroundColor: "#1E90FF",
+                  border: "0",
+                  outline: "0"
+                }
+              }
+              } closeOnOverlayClick={false}>
               <Greeting />
-    
             </Modal>
           </div>
         </div>

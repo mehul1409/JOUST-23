@@ -181,6 +181,16 @@
 }
 
  @media only screen and (max-width:850px){
+    .cursor-dot{
+        display: none;
+    }
+
+    .cursor-outline{
+        display: none;
+    }
+    .homeSection{
+        cursor: pointer;
+    }
     .homePageContent{
         flex-direction: column;
         margin-top:10%;
@@ -218,6 +228,7 @@
     .hamburger{
         display: block;
         cursor: pointer;
+        height:40px;
     }
 
     .navBar{
@@ -228,6 +239,7 @@
         position:absolute;
         top:2%;
         left:6%;
+        height:50px;
     }
 
     .navbar-items{
@@ -236,7 +248,7 @@
         width:100%;
         padding:10%;
         margin-top:-2500px;
-        transition: all 1s ease-in-out;
+        transition: all 0.8s ease-in-out;
         border-bottom-right-radius: 15%;
         border-bottom-left-radius: 15%;
     }
