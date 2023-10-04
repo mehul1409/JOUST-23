@@ -1,92 +1,104 @@
-.contactsection{
+.contactsection {
     background-color: #6f57ff;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     padding: 4% 0;
-}
-
-.contactsection .leftcontent{
-    color:white;
+  }
+  
+  .contactsection .leftcontent {
+    color: white;
     font-size: 2rem;
     letter-spacing: 1px;
-    width:30%;
-    text-align:center;
+    /* width:30%; */
+    max-width: 80%;
+    text-align: center;
     font-weight: 600;
     position: relative;
-}
-
-.form{
+  }
+  
+  .SubscribeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4% 0;
+  }
+  
+  .form {
     display: flex;
     justify-content: space-between;
-}
-
-.contactsection .rightcontent{
+    padding: 6px;
+  }
+  
+  .contactsection .rightcontent {
+    margin-top: 15px;
     background-color: white;
-    padding:0.5%;
+    padding: 0.5%;
     border-radius: 10px;
-    width:40%;
-    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.4),-2px -4px 9px rgba(0, 0, 0, 0.4);
-
-    .emailinput{
-        font-size:0.9rem;
-        border:0;
-        outline: 0;
-        width:70%;
+    /* width:40%; */
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.4), -2px -4px 9px rgba(0, 0, 0, 0.4);
+  
+    .emailinput {
+      font-size: 0.9rem;
+      border: 0;
+      outline: 0;
+      width: 70%;
     }
-    #submit{
-        background-color: #6f57ff;
-        cursor: pointer;
-        font-size:1.1rem;
-        padding:5px;
-        color:white;
-        border:0;
-        outline: 0;
-        border-radius: 10px;
+    #submit {
+      background-color: #6f57ff;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 5px;
+      color: white;
+      border: 0;
+      outline: 0;
+      border-radius: 10px;
     }
-}
-
-.contactsection .rightcontent #submit:hover{
+  }
+  
+  .contactsection .rightcontent #submit:hover {
     background-color: #4837a5;
-}
-
-@media  only screen and (max-width:950px){
-    .contactsection .leftcontent{
-        font-size: 1.5rem;
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .contactsection .leftcontent {
+      font-size: 1.5rem;
     }
-    .contactsection .rightcontent{
-        width:47%;
-        #submit{
-            font-size: 1rem;
-        }
+    .contactsection .rightcontent {
+      width: 47%;
+      #submit {
+        font-size: 1rem;
+      }
     }
-} 
-
-@media  only screen and (max-width:750px){
-    .contactsection{
-        flex-direction: column;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .contactsection {
+      flex-direction: column;
     }
-    .contactsection .leftcontent{
-        font-size: 1.3rem;
-        width:50%;
+    .contactsection .leftcontent {
+      font-size: 1.3rem;
+      /* width:50%; */
     }
-    .contactsection .rightcontent{
-        margin-top:2%;
-        width:60%;
-        #submit{
-            font-size: 1rem;
-        }
+    .contactsection .rightcontent {
+      margin-top: 2%;
+      width: 70%;
+      #submit {
+        font-size: 1rem;
+      }
     }
-    .emailinput{
-        border-radius: 4px;
+    .emailinput {
+      border-radius: 4px;
     }
-}
-@media  only screen and (max-width:520px){
-    .contactsection .leftcontent{
-        font-size: 1.1rem;
-        width:50%;
+  }
+  @media only screen and (max-width: 520px) {
+    .contactsection .leftcontent {
+      font-size: 1.1rem;
+      /* width:60%; */
     }
-    .contactsection .rightcontent{
-        width:90%;
+    .contactsection .rightcontent {
+      width: 90%;
     }
-}
+  }
+  

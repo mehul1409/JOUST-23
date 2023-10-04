@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+body {
+  background: black;
+}
+
+.Gh1 {
+  color: lightblue;
+  font-family: 'Sacramento';
+  text-align: center;
+  font-size: 40px;
+}
+
+.Gp {
+  color: white;
+  position: fixed;
+  top: 300px;
+}
+
+.Gallerycontainer {
+  margin: 4% auto;
+  width: 210px;
+  height: 140px;
+  position: relative;
+  top: 10px;
+  perspective: 1000px;
+}
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotation 20s infinite linear;
+}
+
+#carousel:hover {
+  animation-play-state: paused;
+}
+
+#carousel figure {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 10px;
+  top: 10px;
+  background: white;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+figure img {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 100%; 
+    height: 100%; 
+  }
+  
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+    
+    .Gallerycontainer {
+        perspective: none;
+
+    }
+  }
