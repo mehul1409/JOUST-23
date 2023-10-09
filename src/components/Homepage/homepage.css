@@ -7,13 +7,13 @@
 .cursor-dot{
     width: 5px;
     height:5px;
-    background-color: rgba(64, 64, 227);
+    background-color: #9e1b32;
 }
 
 .cursor-outline{
     width:30px;
     height:30px;
-    border:2px solid rgba(64, 64, 227);
+    border:2px solid #9e1b32;
 }
 
  .cursor-dot,.cursor-outline{
@@ -28,14 +28,14 @@
 
 .homeSection{
     width:100%;
-    background-color: lavender;
+    background-color: white;
     cursor: none;
     position: relative;
 }
 
 .hamburger{
     position: absolute;
-    top:2%;
+    top:15%;
     right:6%;
     display: none;
 }
@@ -59,6 +59,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
+    color:black;
 }
 
 .navbar-items{
@@ -92,7 +93,7 @@
 }
 
 .debsocLogo{
-    transform: scale(1.4);
+    width:35%;
     mix-blend-mode: multiply;
     padding:1% 2%;
 }
@@ -115,8 +116,8 @@
 }
 
 .rightSide .society span{
-    color:rgb(64, 64, 227);
-    text-shadow: 5px 2px 20px rgba(64, 64, 227);
+    color:#9e1b32;
+    text-shadow: 5px 2px 20px #9e1b32;
 }
 
 .rightSide .homecontent{
@@ -127,7 +128,7 @@
 
 .rightSide .knowMoreButton{
     margin:4% 0;
-    background-color: rgb(64, 64, 227);
+    background-color: black;
     color:rgb(233, 231, 231);
     width: fit-content;
     padding:0.5% 1.5%;
@@ -146,7 +147,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color:lavender;
+    background-color:white;
     animation: type 8s steps(30) infinite;
     left: 0;
 }
@@ -193,11 +194,12 @@
     }
     .homePageContent{
         flex-direction: column;
-        margin-top:10%;
+        margin-top:0%;
+        padding:1%;
     }
 
     .debsocLogo{
-        transform: scale(1.2);
+        transform: scale(1.3);
     }
 
     .rightSide{
@@ -231,22 +233,35 @@
         height:40px;
     }
 
+    .navbar-fixed{
+        width:100vw;
+        height:100px;
+    }
+
     .navBar{
         padding:0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        color:white;
+        height:65px;
+        backdrop-filter: blur(10px);
     }
 
     .navBar .clubName{
         position:absolute;
-        top:2%;
+        top:15%;
         left:6%;
         height:50px;
     }
 
     .navbar-items{
         flex-direction: column;
-        background-color: #6499E9;
+        background-color: #FFC72C;
         width:100%;
-        padding:10%;
+        padding:13%;
         margin-top:-2500px;
         transition: all 0.8s ease-in-out;
         border-bottom-right-radius: 15%;
@@ -254,7 +269,7 @@
     }
 
     .mobilemenu{
-        margin-top:0;
+        margin-top:50%;
     }
 
     .navBar a{
@@ -263,8 +278,9 @@
     }
 
     .navBar a:hover{
-        background-color: #9EDDFF;
+        background-color: #9e1b32;
         padding:1px 10px;
+        color:white;
     }
 }
 
@@ -283,7 +299,7 @@
     }
 
     .debsocLogo{
-        transform: scale(0.8);
+        transform: scale(1.1);
         padding:0;
     }
     .rightSide{
@@ -306,7 +322,6 @@
     max-width: 70%;
     margin: auto;
     max-height: 1000px;
-
     background: rgba(0, 0, 0, 0.6); 
     z-index: 9999;
   }

@@ -1,5 +1,5 @@
 .eventsection{
-    background-color:#6f57ff;
+    background-color:#FFC72C;
     padding:5% 0;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 .eventdetails{
     text-align: center;
     margin:1% 4%;
-    color:white;
+    color:black;
 }
 
 .eventheadingbox{
@@ -22,7 +22,7 @@
 .eventbgheading{
     position: absolute;
     font-size: 5rem;
-    color:#897ae3;
+    color:#9e1b32;
     top: -45px;
 }
 .eventheading{

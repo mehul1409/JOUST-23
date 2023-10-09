@@ -64,13 +64,15 @@ const Homepage = () => {
         <div class="cursor-dot" id="cursor-dot"></div>
         <div class="cursor-outline" id="cursor-outline"></div>
 
+
+       <div className="navbar-fixed">
+        <div className="navBar">
+
         <div className="hamburger" onClick={toggleMobileMenu}>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
         </div>
-
-        <div className="navBar">
           <div className="clubName" id="parola">
             PAROLA
           </div>
@@ -84,10 +86,13 @@ const Homepage = () => {
             <a href="#contactus">CONTACT US</a>
           </div>
         </div>
+       </div>
+
+      
         <div className="homePageContent">
           <img
             className="debsocLogo"
-            src="images/DebsocLogo.png"
+            src="images/VEC PAROLA NEW.png"
             alt="debsocLogo"
           />
           <div className="rightSide">
@@ -123,7 +128,7 @@ const Homepage = () => {
                 },
                 closeButton: {
                   height: '30px',
-                  backgroundColor: "#1E90FF",
+                  backgroundColor: "#FFC72C",
                   border: "0",
                   outline: "0"
                 }

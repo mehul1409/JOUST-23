@@ -18,7 +18,7 @@ const App = () => {
       <Events />
       <Members />
       <Contactus />
-      <Gallery />
+      <Gallery /> 
       <Footer />
     </div>
   )

@@ -54,11 +54,11 @@ const Competitions = () => {
                             <div className='parentcompetitionabout'>
                             <div className='competitionabout'>{data.role}</div>
                             </div>
-                            <ul>
+                            {/* <ul>
                                 <li><a href={data.social[0]}><i className="fa-brands fa-instagram"></i></a></li>
                                 <li><a href={data.social[1]}><i className="fa-brands fa-linkedin"></i></a></li>
                                 <li><a href={data.social[2]}><i className="fa-brands fa-facebook"></i></a></li>
-                            </ul>
+                            </ul> */}
                             </div>
                         </div>
                     ))}

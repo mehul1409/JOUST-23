@@ -4,7 +4,7 @@
 }
 
 .competitionbox {
-    background-color: whitesmoke;
+    background-color: white;
     padding-top: 5%;
 }
 
@@ -24,14 +24,14 @@
     top: -50px;
     left: -95px;
     font-size: 5rem;
-    color:rgb(209, 209, 245);
+    color:purple;
     z-index: auto;
 }
 
 .competitiondiv .heading {
     font-size: 3rem;
     font-weight: 600;
-    color: #1E90FF;
+    color: #FFC72C;
     z-index: 1;
     position: relative;
 }
@@ -70,30 +70,30 @@
 }
 
 .contentbox:hover{
-    background-color: #1E90FF;
+    background-color: #FFC72C;
 }
 
-.contentbox ul {
+/* .contentbox ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     margin-top:1%;
-}
+} */
 
 .contentbox div {
     text-align: center;
     color: rgb(45, 45, 45);
 }
 
-.contentbox ul li {
+/* .contentbox ul li {
     padding: 7px 5px;
     font-size: 1.3rem;
-}
+} */
 
-.contentbox ul li:hover {
+/* .contentbox ul li:hover {
     font-size: 1.5rem;
     padding: 3px 3px;
-}
+} */
 
 .contentbox .competitionname {
     font-size: 1.3rem;

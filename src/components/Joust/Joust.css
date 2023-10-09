@@ -1,5 +1,5 @@
 .joustsectionbg{
-    background-color: lavender;
+    background-color:white;
 }
 
 .joustsection{
@@ -15,17 +15,22 @@
     position:relative;
 }
 
+.joust-logo{
+    width:35%;
+    margin:0 34%;
+}
+
 .bgjoust{
     position: absolute;
     font-size: 4.5rem;
-    color:rgb(148, 147, 147);
+    color:white;
 }
 
 .joust{
     position: relative;
     z-index: 1;
     font-size:3rem;
-    color:white;
+    color:#FFC72C;
     text-align: center;
     font-weight: 500;
 }
