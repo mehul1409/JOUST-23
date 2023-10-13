@@ -54,6 +54,10 @@ const Homepage = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
 
@@ -79,11 +83,11 @@ const Homepage = () => {
           <div
             className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
           >
-            <a href="#homesection">HOME</a>
-            <a href="#joust">JOUST</a>
-            <a href="#competition">COMPETITIONS</a>
-            <a href="#events">EVENTS</a>
-            <a href="#contactus">CONTACT US</a>
+            <a href="#homesection" onClick={closeMobileMenu}>HOME</a>
+            <a href="#joust" onClick={closeMobileMenu}>JOUST</a>
+            <a href="#competition" onClick={closeMobileMenu}>COMPETITIONS</a>
+            <a href="#events" onClick={closeMobileMenu}>EVENTS</a>
+            <a href="#contactus" onClick={closeMobileMenu}>CONTACT US</a>
           </div>
         </div>
        </div>
