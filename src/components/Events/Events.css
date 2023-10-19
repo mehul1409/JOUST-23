@@ -134,6 +134,10 @@
         padding:2% 8%;
     }
 
+    .agenda .eventname{
+        padding-right: 3%;
+    }
+
     .eventbgheading{
         position: absolute;
         font-size: 4rem;
@@ -159,5 +163,8 @@
         width:130px;
         height:130px;
         margin: 1%;
+    }
+    .agenda .eventname{
+        padding-right: 5%;
     }
 }

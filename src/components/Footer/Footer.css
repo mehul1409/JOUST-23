@@ -35,6 +35,7 @@
 
 .footer-links ul{
     list-style: none;
+    padding: 0;
 }
 .footer-links ul li a{
     text-decoration: none;
