@@ -108,19 +108,6 @@ const Homepage = () => {
             </div>
             <div className="place">BATTLEFIELD OF WORDS</div>
             <div className="place">4TH-5TH NOVEMBER</div>
-            {/* <div className="homecontent">
-              The official Literary Hub of JIIT Noida. With its highly dedicated
-              and conscientious team, it acts as a catalyst to encourage the
-              passion for literature among the students.
-              <br />
-              <br />
-              This Literary Hub isn't just a static library; it's a dynamic
-              space filled with the energy of literary events. Beyond the books
-              and events, it is a hub of intellectual discourse. It's a place
-              where students and faculty gather to engage in meaningful
-              discussions about literature, philosophy, and the written word's
-              impact on society.
-            </div> */}
             <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
             <Modal
               open={open}
