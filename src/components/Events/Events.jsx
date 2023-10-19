@@ -1,6 +1,21 @@
 import "./Events.css";
+import { Modal } from 'react-responsive-modal';
+import React, { useEffect, useState } from "react";
+
 
 const Events = () => {
+    const [open1, setOpen1] = useState(false);
+    const [open2, setOpen2] = useState(false);
+    const [open3, setOpen3] = useState(false);
+    const [open4, setOpen4] = useState(false);
+    const onOpenModal1 = () => setOpen1(true);
+    const onCloseModal1 = () => setOpen1(false);
+    const onOpenModal2 = () => setOpen2(true);
+    const onCloseModal2 = () => setOpen2(false);
+    const onOpenModal3 = () => setOpen3(true);
+    const onCloseModal3 = () => setOpen3(false);
+    const onOpenModal4 = () => setOpen4(true);
+    const onCloseModal4 = () => setOpen4(false);
     return (
         <>
             <div className="eventsection" id="events">
@@ -12,43 +27,194 @@ const Events = () => {
                 <div className="eventboxsection">
                     <div className="eventbox">
                         <div className="left">
-                            <img src="./images/1.jpg" alt="" />
+                            <img src="./images/UNHRC.png" alt="" className="unhrcimg" onClick={onOpenModal1} />
+                            <Modal
+                                open={open1}
+                                onClose={onCloseModal1}
+                                center
+                                styles={{
+                                    modal: {
+                                        maxHeight: '90%',
+                                        overflowY: 'auto',
+                                        padding: '0'
+                                    },
+                                    closeButton: {
+                                        height: '30px',
+                                        backgroundColor: "#FFC72C",
+                                        border: "0",
+                                        outline: "0"
+                                    }
+                                }
+                                } closeOnOverlayClick={false}>
+                                <div className="agendabox">
+                                    <div className="agenda">
+                                        <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
+                                        <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                        <div className="line"></div>
+                                    </div>
+                                    <div className="judgepanel">
+                                        <div className="panel">Adjudication Panel:</div>
+                                        <div className="judges">
+                                            <div className="judgebox">
+                                                <img src="images/mehul.jpg" alt="" />
+                                                <div>mehul bansal</div>
+                                            </div>
+                                            <div className="judgebox">
+                                                <img src="images/mehul.jpg" alt="" />
+                                                <div>mehul bansal</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Modal>
                         </div>
                         <div className="right">
                             <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
-                            <div className="eventcontent">The UNHRC, or the United Nations Human Rights Council, is a prominent intergovernmental body within the United Nations system responsible for promoting and protecting human rights around the world. Established in March 2006, the UNHRC replaced the previous United Nations Commission on Human Rights, aiming to address several shortcomings of its predecessor. The primary mission of the UNHRC is to strengthen the promotion and protection of human rights globally. It works towards this goal by engaging in various activities</div>
+                            <div className="eventcontent">AGENDA:Drafting a framework for safeguarding Uyghur Muslims in China.</div>
                         </div>
                     </div>
                     <div className="eventbox alternateeventbox">
                         <div className="right">
                             <div className="eventname">ALL INDIA POLITICAL PARTY MEET</div>
-                            <div className="eventcontent">All India Political Party Meet is a non-technical but powerful committee. It is a meeting between all the political parties of the nation. Typically called before the session of the Parliament or before the introduction of a bill, this committee aims to arrive at a consensus before the sessions begin. It is a supplementary body to the Parliament without any legislative provisions. The AIPPM Committee, unlike the other conventional MUN committee, is characterized by unrestricted political debate, cross talks, and high levels of negotiations focussing on emulating political realities by bringing to light various layers of polity and governance in India.</div>
+                            <div className="eventcontent">AGENDA:Deliberation on the suggested electoral reforms in india in light of General Elections 2024.</div>
                         </div>
                         <div className="left">
-                            <img src="./images/7.jpg" alt="" />
+                            <img src="./images/aippm.png" alt="" onClick={onOpenModal2} />
+                            <Modal
+                                open={open2}
+                                onClose={onCloseModal2}
+                                center
+                                styles={{
+                                    modal: {
+                                        maxHeight: '90%',
+                                        overflowY: 'auto',
+                                        padding: '0'
+                                    },
+                                    closeButton: {
+                                        height: '30px',
+                                        backgroundColor: "#FFC72C",
+                                        border: "0",
+                                        outline: "0"
+                                    }
+                                }
+                                } closeOnOverlayClick={false}>
+                                <div className="agendabox">
+                                    <div className="agenda">
+                                        <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
+                                        <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                        <div className="line"></div>
+                                    </div>
+                                    <div className="judgepanel">
+                                        <div className="panel">Adjudication Panel:</div>
+                                        <div className="judges">
+                                            <div className="judgebox">
+                                                <img src="images/mehul.jpg" alt="" />
+                                                <div>mehul bansal</div>
+                                            </div>
+                                            <div className="judgebox">
+                                                <img src="images/mehul.jpg" alt="" />
+                                                <div>mehul</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Modal>
                         </div>
                     </div>
                     <div className="eventbox">
                         <div className="left">
-                            <img src="./images/8.jpg" alt="" />
+                            <img src="./images/unep.png" alt="" onClick={onOpenModal3}/>
+                            <Modal
+                                open={open3}
+                                onClose={onCloseModal3}
+                                center
+                                styles={{
+                                    modal: {
+                                        maxHeight: '90%',
+                                        overflowY: 'auto',
+                                        padding: '0'
+                                    },
+                                    closeButton: {
+                                        height: '30px',
+                                        backgroundColor: "#FFC72C",
+                                        border: "0",
+                                        outline: "0"
+                                    }
+                                }
+                                } closeOnOverlayClick={false}>
+                                <div className="agendabox">
+                                <div className="agenda">
+                                    <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
+                                    <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                    <div className="line"></div>
+                                </div>
+                                <div className="judgepanel">
+                                    <div className="panel">Adjudication Panel:</div>
+                                    <div className="judges">
+                                    <div className="judgebox">
+                                        <img src="images/mehul.jpg" alt="" />
+                                        <div>mehul bansal</div>
+                                    </div>
+                                    <div className="judgebox">
+                                        <img src="images/mehul.jpg" alt="" />
+                                        <div>mehul ansal</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </Modal>
                         </div>
                         <div className="right">
                             <div className="eventname">UNITED NATIONS ENVIRONMENT PROGRAMME</div>
-                            <div className="eventcontent">
-                            The United Nations Environment Programme, is a specialized agency of the United Nations dedicated to addressing environmental issues and promoting sustainable development worldwide. Established in 1972, UNEP has played a crucial role in advocating for environmental protection, conservation, and sustainable resource management. It serves as a platform for international cooperation and action on a wide range of environmental issues, with the aim of creating a more sustainable and environmentally responsible future for the planet and its inhabitants.
-
-                            </div>
+                            <div className="eventcontent">AGENDA:Deliberation upon sustainable extraction of metals and minerals with special emphasis on criminalizing ‘ecocide’ in the forest ecosystem.</div>
                         </div>
                     </div>
                     <div className="eventbox alternateeventbox">
                         <div className="right">
                             <div className="eventname">INTERNATIONAL PRESS</div>
-                            <div className="eventcontent">
-                            Instead of the traditional public speaking-focused aspect of Model UN, the reporters of the International Press move from committee to committee, carefully examining delegates’ foreign policy, observing new alliances between nations, and reporting on the key ideas of various resolutions. Additionally, the reporters organize and attend press conferences, interview delegates, and write short articles, resulting in either high praise of innovative and favorable resolution papers, or bring upon heavy criticism of controversial solutions passed by a given committee. They do not represent any country’s interests, allowing them to act as unbiased journalists. Reporters are both active and passive participants in the conference ensuring the transparency and accountability of the United Nations. 
-                            </div>
+                            <div className="eventcontent">AGENDA:The International Press in the JOUST'23 Will have Photographers and Reporters.</div>
                         </div>
                         <div className="left">
-                            <img src="./images/3.jpg" alt="" />
+                            <img src="./images/ip.png" alt="" onClick={onOpenModal4}/>
+                            <Modal
+                                open={open4}
+                                onClose={onCloseModal4}
+                                center
+                                styles={{
+                                    modal: {
+                                        maxHeight: '90%',
+                                        overflowY: 'auto',
+                                        padding: '0'
+                                    },
+                                    closeButton: {
+                                        height: '30px',
+                                        backgroundColor: "#FFC72C",
+                                        border: "0",
+                                        outline: "0"
+                                    }
+                                }
+                                } closeOnOverlayClick={false}>
+                                <div className="agendabox">
+                                <div className="agenda">
+                                    <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
+                                    <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                    <div className="line"></div>
+                                </div>
+                                <div className="judgepanel">
+                                    <div className="panel">Adjudication Panel:</div>
+                                    <div className="judges">
+                                    <div className="judgebox">
+                                        <img src="images/mehul.jpg" alt="" />
+                                        <div>bansal</div>
+                                    </div>
+                                    <div className="judgebox">
+                                        <img src="images/mehul.jpg" alt="" />
+                                        <div>bansal</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </Modal>
                         </div>
                     </div>
                 </div>

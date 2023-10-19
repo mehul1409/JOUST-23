@@ -1,5 +1,5 @@
 .eventsection{
-    background-color:#FFC72C;
+    background-color:#64CCC5;
     padding:5% 0;
     display: flex;
     justify-content: center;
@@ -22,9 +22,10 @@
 .eventbgheading{
     position: absolute;
     font-size: 5rem;
-    color:#9e1b32;
+    color:#053B50;
     top: -45px;
 }
+
 .eventheading{
     font-size: 2.5rem;
     text-align: center;
@@ -38,7 +39,7 @@
 .eventbox{
     background-color: lavender;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top:2%;
     margin-left:2%;
@@ -56,7 +57,8 @@
     text-align: center;
     margin-bottom: 2%;
     font-size:1.5rem;
-    font-weight: 500;
+    font-weight:500;
+    text-decoration: underline;
 }
 
 .eventbox .left img{
@@ -64,13 +66,83 @@
     height:170px;
     border-radius: 15px;
     margin-bottom: 3%;
+    cursor: pointer;
 }
 .eventbox .right{
     padding:2% 3%;
     flex-basis: 1;
     max-width:900px;
-    text-align: justify;
+    text-align: center;
+    font-weight: 600;
+    font-size:1.1rem;
 }
+
+.agendabox{
+    padding:2% 5%;
+    text-align: center;
+}
+
+.agenda .eventname{
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-right:2%;
+}
+
+.panel{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.agenda .line{
+    height:1px;
+    width:100%;
+    background-color: black;
+    margin-top:3%;
+}
+
+.judgepanel{
+    margin-top:3%;
+}
+
+.judges{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:3%;
+}
+
+.judgebox img{
+    height:150px;
+    width:150px;
+}
+
+
+@media only screen and (max-width:620px){
+
+    .eventbox{
+        flex-direction: column;
+    }
+
+    .alternateeventbox{
+        flex-direction: column-reverse;
+    }
+    .judgebox img{
+        height:120px;
+        width:120px;
+    }
+    .agendabox{
+        padding:2% 8%;
+    }
+
+    .eventbgheading{
+        position: absolute;
+        font-size: 4rem;
+        color:#053B50;
+        top: -30px;
+    }
+}
+
+
 
 @media only screen and (max-width:470px){
     .eventbox .right .eventname{
@@ -87,16 +159,5 @@
         width:130px;
         height:130px;
         margin: 1%;
-    }
-}
-
-@media only screen and (max-width:620px){
-
-    .eventbox{
-        flex-direction: column;
-    }
-
-    .alternateeventbox{
-        flex-direction: column-reverse;
     }
 }

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nosifer&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
 }
 
-.cursor-dot{
+/* .cursor-dot{
     width: 5px;
     height:5px;
     background-color: #9e1b32;
@@ -24,13 +24,16 @@
     border-radius: 50%;
     z-index:1;
     pointer-events: none;
-}
+} */
 
 .homeSection{
     width:100%;
-    background-color: white;
-    cursor: none;
+    /* cursor: none; */
     position: relative;
+    background-image: url('/public/images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
 }
 
 .hamburger{
@@ -44,14 +47,19 @@
     width:30px;
     height:3px;
     margin-top:8px;
-    background-color:black;
+    background-color:white;
 }
 
 .navBar{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding:2% 0;
+    background-color: black;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; */
 }
 
 .navBar .clubName{
@@ -59,7 +67,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
-    color:black;
+    color:#FFC72C;
 }
 
 .navbar-items{
@@ -69,7 +77,7 @@
 }
 
 .navBar a{
-    color:black;
+    color:#FFC72C;
     text-decoration: none;
     font-size: 1.3rem;
     margin:0 12px;
@@ -78,7 +86,7 @@
 }
 
 .navBar a:hover{
-    background-color: rgb(152, 152, 237);
+    background-color: #9e1b32;
     border-radius: 13px;
     color:rgb(23, 22, 22);
     font-weight: 500;
@@ -90,34 +98,40 @@
     align-items: center;
     justify-content: space-around;
     padding:5% 1%;
+    flex-direction: column;
+
 }
 
 .debsocLogo{
-    width:35%;
-    mix-blend-mode: multiply;
-    padding:1% 2%;
+    width:24%;
+    padding:0% 2%;
 }
 
  .rightSide{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width:55%;
+    /* max-width:55%; */
 }
 
 .rightSide .society{
-    font-size: 2.8rem;
-    letter-spacing: 1px;
+    font-size: 5rem;
+    letter-spacing: 5px;
     font-weight: 500;
+    color:#FFC72C;
+    font-family: 'Nosifer', sans-serif;
+    line-height: 40px;
+                                                
 }
 
 .rightSide .place{
-    font-size: 1.5rem;
-}
-
-.rightSide .society span{
-    color:#9e1b32;
-    text-shadow: 5px 2px 20px #9e1b32;
+    margin-top:1%;
+    font-size: 4rem;
+    color:#FFC72C;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Caveat', cursive;
 }
 
 .rightSide .homecontent{
@@ -127,17 +141,19 @@
 }
 
 .rightSide .knowMoreButton{
-    margin:4% 0;
-    background-color: black;
-    color:rgb(233, 231, 231);
+    margin:4% 38%;
+    background-color:#FFC72C;
+    color:black;
     width: fit-content;
     padding:0.5% 1.5%;
     border-radius: 15px;
     font-size: 1.1rem;
     cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-.rightSide .animationsociety{
+/* .rightSide .animationsociety{
     position: relative;
     overflow: hidden;
 }
@@ -159,16 +175,16 @@
     100%{
         left:0;
     }
-}
+} */
 
 @media only screen and (max-width:1160px){
 
     .rightSide .society{
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     
     .rightSide .place{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     .navBar a{
@@ -203,7 +219,7 @@
     }
 
     .rightSide{
-        max-width:75%;
+        /* max-width:75%; */
     }
 
     .animationsociety{
@@ -223,7 +239,7 @@
 
     .rightSide .knowMoreButton{
         margin-top:4%;
-        width:auto;
+        width:fit-content;
         text-align: center;
     }
 
@@ -245,7 +261,6 @@
         left: 0;
         right: 0;
         z-index: 999;
-        color:white;
         height:65px;
         backdrop-filter: blur(10px);
     }
@@ -255,13 +270,14 @@
         top:15%;
         left:6%;
         height:50px;
+        color:#FFC72C;
     }
 
     .navbar-items{
         flex-direction: column;
-        background-color: #FFC72C;
+        background-color:black;
         width:100%;
-        padding:13%;
+        padding:20%;
         margin-top:-2500px;
         transition: all 0.8s ease-in-out;
         border-bottom-right-radius: 15%;
@@ -269,7 +285,7 @@
     }
 
     .mobilemenu{
-        margin-top:90%;
+        margin-top:80%;
     }
 
     .navBar a{
@@ -286,20 +302,21 @@
 
 @media only screen and (max-width:520px){
     .rightSide .homecontent {
-        margin-top: 2%;
+        margin-top: 4%;
         font-size: 1rem;
     }
 
     .rightSide .society{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
+        margin-top:4%;
     }
 
     .rightSide .place{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .debsocLogo{
-        transform: scale(1.1);
+        transform: scale(1.4);
         padding:0;
     }
     .rightSide{
@@ -307,6 +324,7 @@
     }
     .rightSide .knowMoreButton{
         margin-top: 1%;
+        margin-left:30%;
     }
 
 }

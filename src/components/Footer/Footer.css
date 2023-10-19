@@ -48,12 +48,13 @@
 }
 
 .footer-links ul li:hover{
-    background-color: rgb(189, 187, 187);
+    background-color:#FFC72C;
     border-radius: 20px;
 }
 
 .footer-links ul li a:hover{
-    color:rgb(94, 94, 94);
+    color:black;
+    
     font-weight: 500;
 }
 
@@ -73,8 +74,8 @@
 }
 
 .footer-bottom{
-    background-color: #FFC72C;
-    color:white;
+    background-color: #64CCC5;
+    color:black;
     text-align: center;
     font-size: 1.05rem;
     padding:0.6%;
