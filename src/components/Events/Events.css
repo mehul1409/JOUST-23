@@ -67,6 +67,11 @@
     border-radius: 15px;
     margin-bottom: 3%;
     cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.eventbox .left img:hover{
+    transform: scale(1.1);
 }
 .eventbox .right{
     padding:2% 3%;

@@ -60,9 +60,10 @@
 
 .navBar a:hover{
     background-color: #495E57;
+    transform: scale(1.1);
     border-radius: 13px;
     color:white;
-    font-weight: 500;
+    font-weight: 400;
     padding:1px 3px;
 }
 
@@ -124,6 +125,11 @@
     cursor: pointer;
     font-weight: 500;
     text-transform: uppercase;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rightSide .knowMoreButton:hover{
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width:1160px){
