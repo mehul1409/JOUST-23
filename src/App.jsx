@@ -7,15 +7,15 @@ import Footer from './components/Footer/Footer.jsx'
 import Events from './components/Events/Events.jsx'
 import Contactus from './components/Contactus/Contactus.jsx'
 import Joust from './components/Joust/Joust.jsx'
-import { Gallery } from './components/Gallery/Gallery'
+// import { Gallery } from './components/Gallery/Gallery'
 
 const App = () => {
   return (
     <div>
       <Homepage />
       <Joust />
-      <Events />
       <Competitions />
+      <Events />
       <Members />
       <Contactus />
       {/* <Gallery />  */}

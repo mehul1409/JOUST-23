@@ -82,6 +82,10 @@
     padding:0.6%;
 }
 
+.footer-bottom p{
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width:950px){
     .footer-container{
         flex-direction: column;

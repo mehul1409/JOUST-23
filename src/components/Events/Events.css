@@ -155,18 +155,24 @@
 
 @media only screen and (max-width:470px){
     .eventbox .right .eventname{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .eventbox{
+        margin:5%
     }
     .eventbox .right{
         font-size: 0.8rem;
+        text-align: justify;
     }
     .eventdetails{
         font-size: 0.8rem;
+        text-align: justify;
     }
 
     .eventbox .left img{
-        width:130px;
-        height:130px;
+        width:110px;
+        height:110px;
         margin: 1%;
     }
     .agenda .eventname{
