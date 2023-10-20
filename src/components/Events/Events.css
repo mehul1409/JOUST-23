@@ -67,7 +67,7 @@
     border-radius: 15px;
     margin-bottom: 3%;
     cursor: pointer;
-    transition: transform 1s ease;
+    transition: transform 0.3s ease;
 }
 
 .eventbox .left img:hover{

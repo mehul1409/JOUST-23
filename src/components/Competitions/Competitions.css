@@ -29,7 +29,7 @@
     width:35%;
     margin-left:25%;
     margin-bottom: 1%;
-    transition: transform 0.5s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 .name img:hover{
     transform: scale(1.1);

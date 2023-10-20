@@ -1,10 +1,16 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './Competitions.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 const Competitions = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
     return (
-        <div className="competitionbox " id="competition">
+        <div className="competitionbox " id="competition" data-Aos="fade-right">
             <div className="headingbox">
                     <div className='headingc'>COMPETITIONS</div>
             </div>

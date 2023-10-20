@@ -1,9 +1,12 @@
 import "./Events.css";
 import { Modal } from 'react-responsive-modal';
 import React, { useEffect, useState } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 const Events = () => {
+
     const [open1, setOpen1] = useState(false);
     const [open2, setOpen2] = useState(false);
     const [open3, setOpen3] = useState(false);
@@ -16,6 +19,11 @@ const Events = () => {
     const onCloseModal3 = () => setOpen3(false);
     const onOpenModal4 = () => setOpen4(true);
     const onCloseModal4 = () => setOpen4(false);
+
+    useEffect(()=>{
+        Aos.init({duration:1000})
+    },[])
+
     return (
         <>
             <div className="eventsection" id="events">
@@ -23,9 +31,9 @@ const Events = () => {
                     <div className="eventbgheading">EVENTS</div>
                     <div className="eventheading">OUR EVENTS</div>
                 </div>
-                <div className="eventdetails">It is an educational simulation and extracurricular activity in which students typically role-play as delegates to the United Nations and simulate UN committees and other international organizations. The goal of Model United Nations is to provide students with an opportunity to learn about diplomacy, international relations, and the workings of the United Nations while also developing skills in public speaking, negotiation, research, and critical thinking.</div>
+                <div className="eventdetails" data-Aos="fade-up">It is an educational simulation and extracurricular activity in which students typically role-play as delegates to the United Nations and simulate UN committees and other international organizations. The goal of Model United Nations is to provide students with an opportunity to learn about diplomacy, international relations, and the workings of the United Nations while also developing skills in public speaking, negotiation, research, and critical thinking.</div>
                 <div className="eventboxsection">
-                    <div className="eventbox">
+                    <div className="eventbox" data-Aos="fade-right">
                         <div className="left">
                             <img src="./images/UNHRC.png" alt="" className="unhrcimg" onClick={onOpenModal1} />
                             <Modal
@@ -73,7 +81,7 @@ const Events = () => {
                             <div className="eventcontent">AGENDA:Drafting a framework for safeguarding Uyghur Muslims in China.</div>
                         </div>
                     </div>
-                    <div className="eventbox alternateeventbox">
+                    <div className="eventbox alternateeventbox" data-Aos="fade-left">
                         <div className="right">
                             <div className="eventname">ALL INDIA POLITICAL PARTY MEET</div>
                             <div className="eventcontent">AGENDA:Deliberation on the suggested electoral reforms in india in light of General Elections 2024.</div>
@@ -121,7 +129,7 @@ const Events = () => {
                             </Modal>
                         </div>
                     </div>
-                    <div className="eventbox">
+                    <div className="eventbox" data-Aos="fade-right">
                         <div className="left">
                             <img src="./images/unep.png" alt="" onClick={onOpenModal3}/>
                             <Modal
@@ -169,7 +177,7 @@ const Events = () => {
                             <div className="eventcontent">AGENDA:Deliberation upon sustainable extraction of metals and minerals with special emphasis on criminalizing ‘ecocide’ in the forest ecosystem.</div>
                         </div>
                     </div>
-                    <div className="eventbox alternateeventbox">
+                    <div className="eventbox alternateeventbox" data-Aos="fade-left">
                         <div className="right">
                             <div className="eventname">INTERNATIONAL PRESS</div>
                             <div className="eventcontent">AGENDA:The International Press in the JOUST'23 Will have Photographers and Reporters.</div>

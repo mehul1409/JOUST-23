@@ -51,8 +51,8 @@
 .navBar a{
     color:#FFC72C;
     text-decoration: none;
-    font-size: 1.1rem;
-    margin:0 13px;
+    font-size: 1rem;
+    margin:0 10px;
     font-weight: 400;
     padding:1px 4px;
     transition:0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -60,11 +60,11 @@
 
 .navBar a:hover{
     background-color: #495E57;
-    transform: scale(1.1);
+    transform: scale(1.05);
     border-radius: 13px;
     color:white;
     font-weight: 400;
-    padding:1px 3px;
+    padding:1px 8px;
 }
 
 .homePageContent{
