@@ -70,30 +70,30 @@ const Homepage = () => {
         <div class="cursor-outline" id="cursor-outline"></div>
 
 
-       <div className="navbar-fixed">
-        <div className="navBar">
+        <div className="navbar-fixed">
+          <div className="navBar">
 
-        <div className="hamburger" onClick={toggleMobileMenu}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
-          <div className="clubName" id="parola">
-            PAROLA
+            <div className="hamburger" onClick={toggleMobileMenu}>
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
+            <div className="clubName" id="parola">
+              PAROLA
+            </div>
+            <div
+              className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
+            >
+              <a href="#homesection" onClick={closeMobileMenu}>HOME</a>
+              <a href="#joust" onClick={closeMobileMenu}>JOUST</a>
+              <a href="#competition" onClick={closeMobileMenu}>COMPETITIONS</a>
+              <a href="#events" onClick={closeMobileMenu}>EVENTS</a>
+              <a href="#contactus" onClick={closeMobileMenu}>CONTACT US</a>
+            </div>
           </div>
-          <div
-            className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
-          >
-            <a href="#homesection" onClick={closeMobileMenu}>HOME</a>
-            <a href="#joust" onClick={closeMobileMenu}>JOUST</a>
-            <a href="#competition" onClick={closeMobileMenu}>COMPETITIONS</a>
-            <a href="#events" onClick={closeMobileMenu}>EVENTS</a>
-            <a href="#contactus" onClick={closeMobileMenu}>CONTACT US</a>
-          </div>
         </div>
-       </div>
 
-      
+
         <div className="homePageContent">
           <img
             className="debsocLogo"
@@ -102,12 +102,13 @@ const Homepage = () => {
           />
           <div className="rightSide">
             <div className="animationsociety">
-              <div className="society">
-                THE JOUST 2023
-              </div>
+              <div className="society">THE JOUST 2023</div>
+              <div className="place eventdate">4-5 NOV</div>
             </div>
+
+            <div className="hline1"></div>
             <div className="place">BATTLEFIELD OF WORDS</div>
-            <div className="place">4TH-5TH NOVEMBER</div>
+            <div className="hline2"></div>
             <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
             <Modal
               open={open}

@@ -1,125 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nosifer&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;500;700&family=Ysabeau+SC:wght@300&display=swap');
+
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-.homeSection{
-    width:100%;
+.homeSection {
+    width: 100%;
     position: relative;
     background-image: url('/public/images/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:top;
+    background-position: top;
 }
 
-.hamburger{
+.hamburger {
     position: absolute;
-    top:10%;
-    right:6%;
+    top: 10%;
+    right: 6%;
     display: none;
 }
 
-.hamburger .line{
-    width:25px;
-    height:2px;
-    margin-top:8px;
-    background-color:white;
+.hamburger .line {
+    width: 25px;
+    height: 2px;
+    margin-top: 8px;
+    background-color: white;
 }
 
-.navBar{
+.navBar {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
 }
 
-.navBar .clubName{
+.navBar .clubName {
     font-size: 2.3rem;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
-    color:#FFC72C;
+    color: #FFC72C;
 }
 
-.navbar-items{
+.navbar-items {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navBar a{
-    color:#FFC72C;
+.navBar a {
+    color: #FFC72C;
     text-decoration: none;
     font-size: 1rem;
-    margin:0 10px;
+    margin: 0 10px;
     font-weight: 400;
-    padding:1px 4px;
-    transition:0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    padding: 1px 4px;
+    transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navBar a:hover{
+.navBar a:hover {
     background-color: #495E57;
     transform: scale(1.05);
     border-radius: 13px;
-    color:white;
+    color: white;
     font-weight: 400;
-    padding:1px 8px;
+    padding: 1px 8px;
 }
 
-.homePageContent{
+.homePageContent {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding:5% 1%;
+    padding: 5% 1%;
     flex-direction: column;
 
 }
 
-.debsocLogo{
-    width:24%;
-    padding:0% 2%;
+.debsocLogo {
+    width: 24%;
+    padding: 0% 2%;
 }
 
- .rightSide{
+.rightSide {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* max-width:55%; */
 }
 
-.rightSide .society{
+.rightSide .society {
     font-size: 5rem;
     letter-spacing: 5px;
     font-weight: 500;
-    color:#FFC72C;
-    font-family: 'Nosifer', sans-serif;
+    color: #FFC72C;
+    font-family: 'Rubik', sans-serif;
     line-height: 40px;
-                                                
+    margin-bottom: 3%;
+
 }
 
-.rightSide .place{
-    margin-top:4%;
-    font-size: 2.7rem;
-    color:#FFC72C;
+.animationsociety{
+    position: relative;
+}
+.eventdate{
+    position: absolute;
+    top:-120%;
+    right:0;
+}
+
+.hline1 {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: auto;
+}
+
+
+.hline2 {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: auto;
+    display: none;
+
+}
+
+.rightSide .place {
+    font-size: 2.2rem;
+    color: white;
     text-align: center;
     font-weight: bolder;
     letter-spacing: 2px;
     font-family: 'Roboto Slab', serif;
 }
 
-.rightSide .homecontent{
+.rightSide .homecontent {
     font-size: 1.15rem;
     text-align: justify;
-    margin-top:1.5%;
+    margin-top: 1.5%;
 }
 
-.rightSide .knowMoreButton{
-    margin:1.5% auto;
-    background-color:#FFC72C;
-    color:black;
+.rightSide .knowMoreButton {
+    margin: 1.5% auto;
+    background-color: #FFC72C;
+    color: black;
     width: fit-content;
-    padding:0.5% 1.5%;
+    padding: 0.5% 1.5%;
     border-radius: 15px;
     font-size: 1.1rem;
     cursor: pointer;
@@ -128,164 +153,199 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.rightSide .knowMoreButton:hover{
+.rightSide .knowMoreButton:hover {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width:1160px){
+@media only screen and (max-width:1160px) {
 
-    .rightSide .society{
+    .rightSide .society {
         font-size: 3rem;
     }
-    
-    .rightSide .place{
-        font-size:1.7rem;
+
+    .rightSide .place {
+        font-size: 1.5rem;
     }
 
-    .navBar a{
-        margin:0 6px;
+    .navBar a {
+        margin: 0 6px;
         font-size: 1.1rem;
     }
 
-    .navBar{
+    .navBar {
         justify-content: space-around;
+    }
+
+    .eventdate{
+        top:-80%;
     }
 }
 
- @media only screen and (max-width:850px){
-    .cursor-dot{
+@media only screen and (max-width:850px) {
+    .cursor-dot {
         display: none;
     }
 
-    .cursor-outline{
+    .cursor-outline {
         display: none;
     }
-    .homeSection{
+
+    .homeSection {
         cursor: pointer;
     }
-    .homePageContent{
+
+    .homePageContent {
         flex-direction: column;
-        margin-top:0%;
-        padding:1%;
+        margin-top: 0%;
+        padding: 1%;
     }
 
-    .debsocLogo{
+    .debsocLogo {
         transform: scale(1.3);
     }
 
-   
-    .animationsociety{
+
+    .animationsociety {
         text-align: center;
-        margin-top:3%;
+        margin-top: 3%;
     }
 
-    .rightSide .place{
+    .rightSide .place {
         text-align: center;
         font-weight: bold;
     }
 
-    .rightSide .homecontent{
+    .eventdate{
+        top:-20%;
+    }
+
+    .rightSide .homecontent {
         font-size: 1.2rem;
-        margin-top:3%;
+        margin-top: 3%;
     }
 
-    .rightSide .knowMoreButton{
-        margin-top:4%;
-        width:fit-content;
+    .rightSide .knowMoreButton {
+        margin-top: 4%;
+        width: fit-content;
         text-align: center;
-        /* margin-left:40%; */
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
         cursor: pointer;
-        height:40px;
+        height: 40px;
     }
 
-    .navbar-fixed{
-        width:100vw;
-        height:100px;
+    .navbar-fixed {
+        width: 100vw;
+        height: 100px;
     }
 
-    .navBar{
-        padding:0;
+    .navBar {
+        padding: 0;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 999;
-        height:50px;
+        height: 50px;
         backdrop-filter: blur(10px);
     }
 
-    .navBar .clubName{
-        position:absolute;
-        top:0;
-        left:6%;
-        height:50px;
-        color:#FFC72C;
+    .navBar .clubName {
+        position: absolute;
+        top: 0;
+        left: 6%;
+        height: 50px;
+        color: #FFC72C;
     }
 
-    .navbar-items{
+    .navbar-items {
         flex-direction: column;
-        background-color:black;
-        width:100%;
-        padding:20%;
-        margin-top:-2500px;
+        background-color: black;
+        width: 100%;
+        padding: 20%;
+        margin-top: -2500px;
         transition: all 0.8s ease-in-out;
         border-bottom-right-radius: 15%;
         border-bottom-left-radius: 15%;
     }
 
-    .mobilemenu{
-        margin-top:80%;
+    .mobilemenu {
+        margin-top: 80%;
     }
 
-    .navBar a{
-        margin-top:12%;
+    .navBar a {
+        margin-top: 12%;
         font-weight: 500;
     }
 
-    .navBar a:hover{
+    .navBar a:hover {
         background-color: #9e1b32;
-        padding:1px 10px;
-        color:white;
+        padding: 1px 10px;
+        color: white;
+    }
+    .eventdate{
+        top:-70%;
     }
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (max-width:520px) {
     .rightSide .homecontent {
         margin-top: 4%;
     }
 
-    .rightSide .society{
+    .rightSide .society {
         font-size: 2.5rem;
-        margin-top:4%;
+        margin-top: 3%;
     }
 
-    .rightSide .place{
-        font-size: 1.5rem;
+    .hline1 {
+        width: 80%;
     }
 
-    .debsocLogo{
+    .hline2 {
+        width: 80%;
+        display:block;
+
+    }
+
+    .rightSide .place {
+        font-size: 1.1rem;
+        padding: 0 2%;
+    }
+
+    .debsocLogo {
         transform: scale(1.4);
-        padding:0;
+        padding: 0;
     }
-    .rightSide .knowMoreButton{
-        margin-top: 2%;
-        /* margin-left:35%; */
+
+    .rightSide .knowMoreButton {
+        margin-top: 3%;
     }
-    .hamburger{
-        top:0;
+
+    .hamburger {
+        top: 0;
     }
-    .navBar{
-        height:35px;
+
+    .navBar {
+        height: 35px;
     }
-    .navBar .clubName{
+
+    .navBar .clubName {
         font-size: 1.5rem;
     }
-    
+    .eventdate{
+        top:-20%;
+    }
 
+
+}
+
+@media only screen and (max-width:406px){
+    .eventdate{
+        margin-right:12%;
+    }
 }
 
 
@@ -294,30 +354,31 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-     top: 0; 
-    left: 0; 
+    top: 0;
+    left: 0;
     max-width: 70%;
     margin: auto;
     max-height: 1000px;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
     z-index: 9999;
-  }
-  
-  
-  .modal-content {
+}
+
+
+.modal-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     position: relative;
-  }
-  
+}
 
-  .close {
+
+.close {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 20px;
     cursor: pointer;
     color: #333;
-  }
+}
+

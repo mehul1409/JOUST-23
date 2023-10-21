@@ -21,7 +21,7 @@ const Events = () => {
     const onCloseModal4 = () => setOpen4(false);
 
     useEffect(()=>{
-        Aos.init({duration:1000})
+        Aos.init({duration:2000})
     },[])
 
     return (
@@ -81,7 +81,7 @@ const Events = () => {
                             <div className="eventcontent">AGENDA:Drafting a framework for safeguarding Uyghur Muslims in China.</div>
                         </div>
                     </div>
-                    <div className="eventbox alternateeventbox" data-Aos="fade-right">
+                    <div className="eventbox alternateeventbox" data-Aos="fade-up">
                         <div className="right">
                             <div className="eventname">ALL INDIA POLITICAL PARTY MEET</div>
                             <div className="eventcontent">AGENDA:Deliberation on the suggested electoral reforms in india in light of General Elections 2024.</div>
@@ -177,7 +177,7 @@ const Events = () => {
                             <div className="eventcontent">AGENDA:Deliberation upon sustainable extraction of metals and minerals with special emphasis on criminalizing ‘ecocide’ in the forest ecosystem.</div>
                         </div>
                     </div>
-                    <div className="eventbox alternateeventbox" data-Aos="fade-right">
+                    <div className="eventbox alternateeventbox" data-Aos="fade-up   ">
                         <div className="right">
                             <div className="eventname">INTERNATIONAL PRESS</div>
                             <div className="eventcontent">AGENDA:The International Press in the JOUST'23 Will have Photographers and Reporters.</div>
