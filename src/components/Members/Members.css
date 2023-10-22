@@ -1,5 +1,5 @@
 .memberbox {
-    background-color: #3876BF;
+    background-color: #6f57ff;
     padding: 1% 0;
 }
 
@@ -64,6 +64,7 @@
     justify-content: space-evenly;
     margin-top:1%;
     padding-right:1.5rem;
+    margin-bottom: 0;
 }
 
 .profile div {
@@ -112,11 +113,19 @@
     }
 
     .profile img {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         margin: 4% 18%;
     }
 
+    .profile .name{
+        font-size: 1rem;
+        padding:3% 1%;
+    }
+    .profile .role{
+        font-size: 0.9rem;
+    }
+    
     .profile {
         display: flex;
         justify-content:space-evenly;
@@ -130,7 +139,6 @@
     }
     .profilecontentbox{
         flex-basis: 70%;
-
     }
     .members {
         grid-template-columns: auto;

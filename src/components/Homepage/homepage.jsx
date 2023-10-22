@@ -84,11 +84,11 @@ const Homepage = () => {
             <div
               className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
             >
-              <a href="#homesection" onClick={closeMobileMenu}>HOME</a>
               <a href="#joust" onClick={closeMobileMenu}>JOUST</a>
               <a href="#competition" onClick={closeMobileMenu}>COMPETITIONS</a>
               <a href="#events" onClick={closeMobileMenu}>EVENTS</a>
               <a href="#contactus" onClick={closeMobileMenu}>CONTACT US</a>
+              <a href="https://linktr.ee/parola_literaryhub" onClick={closeMobileMenu} target="_blank">REGISTER NOW</a>
             </div>
           </div>
         </div>

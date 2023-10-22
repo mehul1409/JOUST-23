@@ -16,15 +16,6 @@
     grid-template-columns: auto auto auto;
 }
 
-
-/* .competitiondiv{
-    max-width: 85%;
-    font-weight: 500;
-    text-align: center;
-    margin:2% auto;
-    font-size:1.3rem;
-} */
-
 .name img{
     width:35%;
     margin-left:25%;
@@ -45,6 +36,9 @@
 @media only screen and (max-width:630px){
     .competitions{
         grid-template-columns: auto auto;
+    }
+    .headingc{
+        padding:5% 0;
     }
 }
 @media only screen and (max-width:420px){
