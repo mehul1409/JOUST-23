@@ -18,12 +18,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
          social: ["", "", ""]
      },
      {
-         name: "siddanth3",
-         img: "/images/mehul.jpg",
-         role: "sub-coordinator",
-         social: ["", "", ""]
-     },
-     {
          name: "GAUTAM KUMAR",
          img: "/images/mehul.jpg",
          role: "Senior Advisor",
