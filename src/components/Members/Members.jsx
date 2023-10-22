@@ -124,7 +124,7 @@ const chunkArray = (array, chunkSize) => {
 };
 
 const Members = () => {
-  const chunkedData = chunkArray(dataArr, 3);
+  const chunkedData = chunkArray(dataArr, 4);
 
   return (
     <div className="memberbox">
