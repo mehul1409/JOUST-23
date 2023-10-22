@@ -34,7 +34,8 @@
 
 .members {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 3%;
 }
 
 .profile img {
@@ -111,6 +112,10 @@
     .memberdiv h3 {
         max-width: 90%;
         font-size: 1rem;
+    }
+
+    .members{
+        margin-bottom: 10%;
     }
 
     .profile img {
