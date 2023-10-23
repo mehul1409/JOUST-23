@@ -1,6 +1,5 @@
 .memberbox {
     background-color: #516091;
-    /* background-color: #6f57ff; */
     padding: 1% 0;
 }
 
@@ -44,6 +43,8 @@
     width: 120px;
     margin: 5% 17%;
     transition: transform 0.3s ease-in-out;
+    border-radius: 5%;
+    object-fit: fill;
 }
 
 .profile img:hover{
@@ -51,7 +52,7 @@
 }
 
 .profile {
-    height: 240px;
+    height: 250px;
     width: 200px;
     margin: 10% auto;
     background-color: lavender;
@@ -88,6 +89,7 @@
     font-size: 1.3rem;
     font-weight: 500;
     text-transform: uppercase;
+    padding:2% 2%;
 }
 
 .profile .role {

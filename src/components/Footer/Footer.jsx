@@ -33,6 +33,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <p>&copy; The Literary Society.JIIT-62</p>
+        <div className="mehul"><a href="https://www.linkedin.com/in/mehul-bansal-27173b254/">Created By Mehul Bansal</a></div>
       </div>
     </footer>
   );

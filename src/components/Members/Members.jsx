@@ -19,7 +19,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "GAUTAM KUMAR",
-         img: "/images/",
+         img: "/images/team/Gautam_Sir.jpg",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
@@ -55,13 +55,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "MRADUL VARSHNEY",
-         img: "/images/team/Mradul.jpeg.jpg",
+         img: "/images/team/mradul_sir.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "VAIBHAV KUMAR",
-         img: "/images/team/",
+         img: "/images/team/Vaibhav.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
@@ -139,11 +139,11 @@ const Members = () => {
                   <div className="profilecontentbox">
                     <div className='name'>{data.name}</div>
                     <div className='role'>{data.role}</div>
-                    <ul>
+                    {/* <ul>
                       <li><a href={data.social[0]}><i className="fa-brands fa-instagram"></i></a></li>
                       <li><a href={data.social[1]}><i className="fa-brands fa-linkedin"></i></a></li>
                       <li><a href={data.social[2]}><i className="fa-brands fa-github"></i></a></li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               ))}

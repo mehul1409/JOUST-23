@@ -80,10 +80,22 @@
     text-align: center;
     font-size: 1.05rem;
     padding:0.6%;
+    position: relative;
 }
 
 .footer-bottom p{
     margin-bottom: 0;
+}
+
+.mehul a{
+    text-align: right;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:0 2% 0.7% 0;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:black;
 }
 
 @media only screen and (max-width:950px){
@@ -103,5 +115,9 @@
 
     .footer-social a{
         margin-left: 1%;
+    }
+
+    .mehul a{
+        position: static;
     }
 }
