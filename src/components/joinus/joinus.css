@@ -1,0 +1,87 @@
+.aheading{
+    text-align: center;
+    margin: 1% 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.applyrole{
+    text-align: center;
+    margin:1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.applyrole a{
+    color:black;
+    text-decoration: none;
+    margin:2% 5%;
+    font-size: 1.2rem;
+    border:1px solid black;
+    padding:0.5% 1%;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.applyrole a:hover{
+    transform: scale(1.1);
+}
+
+.applyas{
+    padding:1% 0;
+    background-color: lightgray;
+}
+
+.applyas p{
+    text-align: center;
+    font-size: 2rem;
+    margin:1% 0;
+}
+
+.applycontentbox{
+    display: flex;
+    margin:0 3%;
+}
+
+.headingapply{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin: 4% 0;
+}
+
+.headingcontent{
+    text-align: justify;
+}
+
+.contentapplyus{
+    margin:0 3%;
+}
+
+@media only screen and (max-width:720px){
+    .applycontentbox{
+        flex-direction: column;
+    }
+
+    .applyrole a{
+        margin:2% 2%;
+        font-size: 1rem;
+        padding:0.5% 1%;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .applyrole{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aheading{
+        margin: 3% 0;
+    }
+
+    .applyas p{
+        margin:3% 0;
+    }
+}

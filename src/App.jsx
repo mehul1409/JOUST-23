@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer.jsx'
 import Events from './components/Events/Events.jsx'
 import Contactus from './components/Contactus/Contactus.jsx'
 import Joust from './components/Joust/Joust.jsx'
+import Joinus from './components/joinus/joinus.jsx'
 // import { Gallery } from './components/Gallery/Gallery'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Homepage />
       <Joust />
+      <Joinus/>
       <Competitions />
       <Events />
       <Members />
