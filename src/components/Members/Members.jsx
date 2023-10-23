@@ -7,103 +7,103 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
  const dataArr = [
      {
          name: "SHRINJAL GUPTA",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Shrinjal.jpg",
          role: "Director ",
          social: ["", "", ""]
      },
      {
          name: "RADHIKA JANGRA",
-         img: "/images/mehul.jpg",
+         img: "/images/team/radhhika.png",
          role: "Chief of executions",
          social: ["", "", ""]
      },
      {
          name: "GAUTAM KUMAR",
-         img: "/images/mehul.jpg",
+         img: "/images/",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "VANSHAJ JAIMAN",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Vanshaj Sir.jpeg.jpg",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "RIKA VERMA",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Rika Maam.JPG",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "MANAS MITTAL",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Manas.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "YUUV MITTAL",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Yuuv.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "ANIMA SHUKLA",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Anima.jpeg.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "MRADUL VARSHNEY",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Mradul.jpeg.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "VAIBHAV KUMAR",
-         img: "/images/mehul.jpg",
+         img: "/images/team/",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "SAUMYA BANSAL",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Saumya.jpeg.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "AYUSH SWAMI",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Ayush.jpg",
          role: "Head of Cinematics",
          social: ["", "", ""]
      },
      {
          name: "ASHWIN SETHI",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Ashwin.jpg",
          role: "Head of Creative",
          social: ["", "", ""]
      },
      {
          name: "SHRUTI SINGH",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Shruti.jpg",
          role: "Head of Creative",
          social: ["", "", ""]
      },
      {
          name: "PARTH TANDON",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Parth Sir.jpg",
          role: "Joust Advisor",
          social: ["", "", ""]
      },
      {
          name: "PRARIT AGARWAL",
-         img: "/images/mehul.jpg",
+         img: "/images/team/Prerit Sir.jpg",
          role: "Joust Advisor",
          social: ["", "", ""]
      },
      {
          name: "AMISH MISHRA",
-         img: "/images/mehul.jpg",
+         img: "/images/team/amish Sir.jpg",
          role: "Joust Advisor",
          social: ["", "", ""]
      }
