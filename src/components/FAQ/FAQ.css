@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -21,7 +21,6 @@
   padding: 1rem;
   text-align: center;
   background-color: #e1dfba;
-  /* background-color: #FFC72C; */
   color: #080217;
 }
 
@@ -111,4 +110,15 @@ button {
   .answer.active {
     padding-top: 1rem;
   }
+} */
+
+/* .faq{
+  width:100px;
+  height:100px;
+  background-color: red;
 }
+
+img {
+  width: 200px;
+  height: 200px;
+} */
