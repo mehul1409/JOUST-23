@@ -120,9 +120,15 @@
     margin-top:3%;
 }
 
+.judgebox{
+    padding:0 1%;
+}
+
 .judgebox img{
-    height:150px;
-    width:150px;
+    height:130px;
+    width:130px;
+    object-fit: fill;
+    object-position: center;
 }
 
 
@@ -134,6 +140,15 @@
 
     .alternateeventbox{
         flex-direction: column-reverse;
+    }
+
+    .judges{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .judgebox{
+        margin-top:20%;
     }
     .judgebox img{
         height:120px;

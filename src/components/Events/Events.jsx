@@ -64,12 +64,16 @@ const Events = () => {
                                         <div className="panel">Adjudication Panel:</div>
                                         <div className="judges">
                                             <div className="judgebox">
-                                                <img src="images/mehul.jpg" alt="" />
-                                                <div>mehul bansal</div>
+                                                <img src="images/judge/vimal-mishra.jpg" alt="" />
+                                                <div>Mr. Vimal Mishra</div>
                                             </div>
                                             <div className="judgebox">
-                                                <img src="images/mehul.jpg" alt="" />
-                                                <div>mehul bansal</div>
+                                                <img src="images/judge/hitensir.jpg" alt="" />
+                                                <div>Mr. Hiten Chadha</div>
+                                            </div>
+                                            <div className="judgebox">
+                                                <img src="images/judge/praseemsir.jpg" alt="" />
+                                                <div>Mr. Praseem Jaiswal</div>
                                             </div>
                                         </div>
                                     </div>
@@ -108,20 +112,24 @@ const Events = () => {
                                 } closeOnOverlayClick={false}>
                                 <div className="agendabox">
                                     <div className="agenda">
-                                        <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
-                                        <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                        <div className="eventname">ALL INDIA POLITICAL PARTY MEET</div>
+                                        <div className="eventcontent">Deliberation on the suggested electoral reforms in india in light of General Elections 2024.</div>
                                         <div className="line"></div>
                                     </div>
                                     <div className="judgepanel">
                                         <div className="panel">Adjudication Panel:</div>
                                         <div className="judges">
                                             <div className="judgebox">
-                                                <img src="images/mehul.jpg" alt="" />
-                                                <div>mehul bansal</div>
+                                                <img src="images/judge/abhinavsir.jpg" alt="" />
+                                                <div>Abhinav Narayan Jha</div>
                                             </div>
                                             <div className="judgebox">
-                                                <img src="images/mehul.jpg" alt="" />
-                                                <div>mehul</div>
+                                                <img src="images/judge/jinymaam.jpg" alt="" />
+                                                <div>Jiny Jawa</div>
+                                            </div>
+                                            <div className="judgebox">
+                                                <img src="images/judge/sankalpsir.jpg" alt="" />
+                                                <div>Sankalp Bharadwaj</div>
                                             </div>
                                         </div>
                                     </div>
@@ -152,20 +160,20 @@ const Events = () => {
                                 } closeOnOverlayClick={false}>
                                 <div className="agendabox">
                                 <div className="agenda">
-                                    <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
-                                    <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                    <div className="eventname">UNITED NATIONS ENVIRONMENT PROGRAMME</div>
+                                    <div className="eventcontent">Deliberation upon sustainable extraction of metals and minerals with special emphasis on criminalizing ‘ecocide’ in the forest ecosystem.</div>
                                     <div className="line"></div>
                                 </div>
                                 <div className="judgepanel">
                                     <div className="panel">Adjudication Panel:</div>
                                     <div className="judges">
                                     <div className="judgebox">
-                                        <img src="images/mehul.jpg" alt="" />
-                                        <div>mehul bansal</div>
+                                        <img src="images/judge/vinayak.jpg" alt="" />
+                                        <div>Vinayak</div>
                                     </div>
                                     <div className="judgebox">
-                                        <img src="images/mehul.jpg" alt="" />
-                                        <div>mehul ansal</div>
+                                        <img src="images/judge/arshia.jpg" alt="" />
+                                        <div>Arshia Mehta</div>
                                     </div>
                                     </div>
                                 </div>
@@ -204,20 +212,16 @@ const Events = () => {
                                 } closeOnOverlayClick={false}>
                                 <div className="agendabox">
                                 <div className="agenda">
-                                    <div className="eventname">UNITED NATIONS HUMAN RIGHTS COUNCIL</div>
-                                    <div className="eventcontent">Drafting a framework for safeguarding Uyghur Muslims in China.</div>
+                                    <div className="eventname">INTERNATIONAL PRESS</div>
+                                    <div className="eventcontent">The International Press in the JOUST'23 Will have Photographers and Reporters.</div>
                                     <div className="line"></div>
                                 </div>
                                 <div className="judgepanel">
                                     <div className="panel">Adjudication Panel:</div>
                                     <div className="judges">
                                     <div className="judgebox">
-                                        <img src="images/mehul.jpg" alt="" />
-                                        <div>bansal</div>
-                                    </div>
-                                    <div className="judgebox">
-                                        <img src="images/mehul.jpg" alt="" />
-                                        <div>bansal</div>
+                                        <img src="images/judge/vanyamaam.jpg" alt="" />
+                                        <div>Ms. Vanya Maken</div>
                                     </div>
                                     </div>
                                 </div>

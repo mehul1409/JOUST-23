@@ -1,9 +1,30 @@
 import "./Joust.css"
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Joust = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
     return (
         <>
             <div className="joustsectionbg" id="joust">
+                <div className="facts" data-Aos="fade-up">
+                    <p className="fact">FACTS</p> <br />
+                    <div className="factbox">
+                    <span className="spanf">8</span><br />
+                    Events <br />
+                    </div>
+                    <div className="factbox">
+                    <span className="spanf">500</span><br />
+                    Participants <br />
+                    </div>
+                    <div className="factbox">
+                    <span className="spanf">50k+</span><br />
+                    Prize Pool
+                    </div>
+                </div>
                 <div className="joustsection">
                     <div className="joustbox">
                         <div className="bgjoust">WHAT IS JOUST ?</div>

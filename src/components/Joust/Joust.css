@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
 
 .joustsectionbg{
-    background-color:white;
+    background-color:#080217;
+    display: flex;
+}
+
+.facts{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top:6%;
+    padding-left:6%;
+    padding-right: 4%;
+}
+
+.factbox{
+    margin-bottom: 20%;
+}
+
+.fact{
+    font-size: 2.5rem;
+}
+
+.facts .spanf{
+    color:#FFC72C;
 }
 
 .joustsection{
     background-color: #080217;
     padding:4%;
     font-family: 'Poppins', sans-serif;
-    /* border-radius:20px; */
-    /* margin:0% 2%;    */
 }
 
 .joustbox{
@@ -24,7 +44,7 @@
 }
 
 .bgjoust{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color:white;
 }
 
@@ -47,10 +67,16 @@
 
 @media only screen and (max-width:820px){
     .bgjoust{
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     .joust{
         font-size: 2.5rem;
+    }
+    .joustsectionbg{
+        flex-direction: column;
+    }
+    .factbox{
+        margin-bottom: 5%;
     }
 }
 

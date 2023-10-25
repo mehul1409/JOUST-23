@@ -31,10 +31,10 @@ const Competitions = () => {
                     <img src="images/press.png" alt="" />
                     <h4>THE INTERNATIONAL PRESS CONFRENCE</h4>
                 </div>
-                <div className="name event9">
-                    {/* <img src="images/UNHRC.png" alt="" /> */}
+                {/* <div className="name event9">
+                    <img src="images/UNHRC.png" alt="" />
                     <h4>MUN/EVENTS</h4>
-                </div>
+                </div> */}
                 <div className="name">
                     <img src="images/debate.png" alt="" />
                     <h4>TARKSANGRAM - A TWO DAY MULTI-FORMAT HINDI DEBATE</h4>
