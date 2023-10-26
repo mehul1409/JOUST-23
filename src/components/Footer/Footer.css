@@ -33,29 +33,29 @@
     color:rgb(240, 237, 237);
 }
 
-.footer-links ul{
+.footer-links .quicklinks{
     list-style: none;
     padding: 0;
+    cursor: pointer;
 }
-.footer-links ul li a{
+.footer-links .quicklinks li a{
     text-decoration: none;
     color:rgb(240, 237, 237); 
 }
 
-.footer-links ul li{
+.footer-links .quicklinks li{
     text-align: center;
     cursor: pointer;
     margin-top:1%;
 }
 
-.footer-links ul li:hover{
+.footer-links .quicklinks li:hover{
     background-color:#FFC72C;
     border-radius: 20px;
 }
 
-.footer-links ul li a:hover{
+.footer-links .quicklinks a:hover{
     color:black;
-    
     font-weight: 500;
 }
 

@@ -6,9 +6,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
  const dataArr = [
      {
-         name: "ILA JOSHI MA'AM",
+         name: "Dr.ILA JOSHI",
          img: "/images/team/Ila Joshi.png",
-         role: "Director ",
+         role: "Faculty Co-ordinator",
          social: ["", "", ""]
      },
      {
@@ -62,19 +62,19 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      {
          name: "MANAS MITTAL",
          img: "/images/Manas.jpg",
-         role: "Head of Delegate",
+         role: "Head of Delegate Affairs",
          social: ["", "", ""]
      },
      {
          name: "YUUV MITTAL",
          img: "/images/yuuv.jpg",
-         role: "Head of Delegate",
+         role: "Head of Delegate Affairs",
          social: ["", "", ""]
      },
      {
          name: "ANIMA SHUKLA",
          img: "/images/team/anima.jpg",
-         role: "Head of Delegate",
+         role: "Head of Delegate Affairs",
          social: ["", "", ""]
      },
      {
@@ -92,7 +92,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      {
          name: "SAUMYA BANSAL",
          img: "/images/team/Saumya.jpg",
-         role: "Head of Digital Design",
+         role: "Head of Cinematics",
          social: ["", "", ""]
      },
      {

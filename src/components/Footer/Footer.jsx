@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
       <div className="footer-links">
           <h3>Quick Links</h3>
-          <ul>
+          <ul className='quicklinks'>
             <li><a href="#homesection">Home</a></li>
             <li><a href="#joust">Joust</a></li>
             <li><a href="#events">Events</a></li>
