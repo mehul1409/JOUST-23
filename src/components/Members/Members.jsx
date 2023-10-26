@@ -61,13 +61,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "MANAS MITTAL",
-         img: "/images/team/manas.jpg",
+         img: "/images/Manas.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "YUUV MITTAL",
-         img: "/images/team/yuuv.jpg",
+         img: "/images/yuuv.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
@@ -85,7 +85,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "VAIBHAV KUMAR",
-         img: "/images/team/vaibhav.jpg",
+         img: "/images/vaibhav.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
