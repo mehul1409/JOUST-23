@@ -84,7 +84,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
          social: ["", "", ""]
      },
      {
-         name: "VAIBHAV KUMAR",
+         name: "VAIBHAV KATIYAR",
          img: "/images/vaibhav.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
