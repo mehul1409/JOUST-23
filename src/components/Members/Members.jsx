@@ -42,6 +42,24 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
          social: ["", "", ""]
      },
      {
+         name: "PARTH TANDON",
+         img: "/images/team/Parth Sir.jpg",
+         role: "Joust Advisor",
+         social: ["", "", ""]
+     },
+     {
+         name: "PRARIT AGARWAL",
+         img: "/images/team/Prarit Sir.jpg",
+         role: "Joust Advisor",
+         social: ["", "", ""]
+     },
+     {
+         name: "AMISH MISHRA",
+         img: "/images/team/amish Sir.jpg",
+         role: "Joust Advisor",
+         social: ["", "", ""]
+     },
+     {
          name: "MANAS MITTAL",
          img: "/images/team/manas.jpg",
          role: "Head of Delegate",
@@ -93,24 +111,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
          name: "SHRUTI SINGH",
          img: "/images/team/Shruti.jpg",
          role: "Head of Creative",
-         social: ["", "", ""]
-     },
-     {
-         name: "PARTH TANDON",
-         img: "/images/team/Parth Sir.jpg",
-         role: "Joust Advisor",
-         social: ["", "", ""]
-     },
-     {
-         name: "PRARIT AGARWAL",
-         img: "/images/team/Prarit Sir.jpg",
-         role: "Joust Advisor",
-         social: ["", "", ""]
-     },
-     {
-         name: "AMISH MISHRA",
-         img: "/images/team/amish Sir.jpg",
-         role: "Joust Advisor",
          social: ["", "", ""]
      }
  ];
