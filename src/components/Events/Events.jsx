@@ -168,7 +168,7 @@ const Events = () => {
                                     <div className="panel">Adjudication Panel:</div>
                                     <div className="judges">
                                     <div className="judgebox">
-                                        <img src="images/judge/vinayak.jpg" alt="" />
+                                        <img src="images/judge/vinayak.JPG" alt="" />
                                         <div>Vinayak</div>
                                     </div>
                                     <div className="judgebox">
