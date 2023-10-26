@@ -41,12 +41,15 @@ const Events = () => {
         <div className="eventboxsection">
           <div className="eventbox" data-Aos="fade-right">
             <div className="left">    
+                <div className="eye">
                 <img
                   src="./images/UNHRC.png"
                   alt=""
                   className="unhrcimg"
                   onClick={onOpenModal1}
-                />
+                /> 
+                <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+                </div>
               <Modal
                 open={open1}
                 onClose={onCloseModal1}
@@ -116,7 +119,10 @@ const Events = () => {
               </div>
             </div>
             <div className="left">
+              <div className="eye">
               <img src="./images/aippm.png" alt="" onClick={onOpenModal2} />
+              <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+              </div>
               <Modal
                 open={open2}
                 onClose={onCloseModal2}
@@ -170,7 +176,10 @@ const Events = () => {
           </div>
           <div className="eventbox" data-Aos="fade-right">
             <div className="left">
-              <img src="./images/unep.png" alt="" onClick={onOpenModal3} />
+             <div className="eye">
+             <img src="./images/unep.png" alt="" onClick={onOpenModal3} />
+             <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+             </div>
               <Modal
                 open={open3}
                 onClose={onCloseModal3}
@@ -210,7 +219,7 @@ const Events = () => {
                         <div>Vinayak</div>
                       </div>
                       <div className="judgebox">
-                        <img src="images/judge/arshia.jpg" alt="" />
+                        <img src="images/judge/arshia.jpg" alt="" />                    
                         <div>Arshia Mehta</div>
                       </div>
                     </div>
@@ -238,7 +247,10 @@ const Events = () => {
               </div>
             </div>
             <div className="left">
+              <div className="eye">
               <img src="./images/ip.png" alt="" onClick={onOpenModal4} />
+              <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+              </div>
               <Modal
                 open={open4}
                 onClose={onCloseModal4}
@@ -271,7 +283,7 @@ const Events = () => {
                     <div className="panel">Adjudication Panel:</div>
                     <div className="judges">
                       <div className="judgebox">
-                        <img src="images/judge/vanyamaam.jpg" alt="" />
+                        <img src="images/judge/vanyamaam.jpg" alt="" />                     
                         <div>Ms. Vanya Maken</div>
                       </div>
                     </div>
