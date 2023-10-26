@@ -2,7 +2,7 @@ import React from 'react'
 import "./App.css"
 import Homepage from "./components/Homepage/homepage.jsx"
 import Competitions from './components/Competitions/Competitions.jsx'
-// import Members from './components/Members/Members.jsx'
+import Members from './components/Members/Members.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Events from './components/Events/Events.jsx'
 import Contactus from './components/Contactus/Contactus.jsx'
@@ -18,7 +18,7 @@ const App = () => {
       <Joinus/>
       <Competitions />
       <Events />
-      {/* <Members /> */}
+      <Members />
       <Contactus />
       {/* <Gallery />  */}
       <Footer />

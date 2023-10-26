@@ -32,15 +32,25 @@ const Contactus = () => {
     <>
       <div className="contactsection" id="contactus">
         <div className="FaqDiv">
-          <div className="reach">VENUE - JIIT NOIDA, SECTOR-62 <br /> (NOIDA ELECTRONIC CITY)
+          <div className="reach">
+            VENUE - JIIT NOIDA, SECTOR-62 <br /> (NOIDA ELECTRONIC CITY)
           </div>
           {/* <FAQ /> */}
-          <a href="https://www.google.com/maps/place/JAYPEE+INSTITUTE+OF+INFORMATION+TECHNOLOGY/@28.6312137,77.3657586,16z/data=!4m6!3m5!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!8m2!3d28.631209!4d77.3709084!16zL20vMDlqcXJt?entry=ttu" target="_blank">
+          <a
+            href="https://www.google.com/maps/place/JAYPEE+INSTITUTE+OF+INFORMATION+TECHNOLOGY/@28.6312137,77.3657586,16z/data=!4m6!3m5!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!8m2!3d28.631209!4d77.3709084!16zL20vMDlqcXJt?entry=ttu"
+            target="_blank"
+          >
             <img src="/images/location.jpg" className="location" alt="" />
           </a>
+          <div class="overlay">
+            <a href="https://www.google.com/maps/place/JAYPEE+INSTITUTE+OF+INFORMATION+TECHNOLOGY/@28.6312137,77.3657586,16z/data=!4m6!3m5!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!8m2!3d28.631209!4d77.3709084!16zL20vMDlqcXJt?entry=ttu"
+            target="_blank">Click Here For Location</a>
+          </div>
         </div>
         <div className="SubscribeDiv">
-          <div className="leftcontent">Subscribe To Get Greeting & Latest Updates</div>
+          <div className="leftcontent">
+            Subscribe To Get Greeting & Latest Updates
+          </div>
           <div className="rightcontent">
             <form ref={form} onSubmit={sendEmail} className="form">
               <input

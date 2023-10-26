@@ -6,6 +6,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
  const dataArr = [
      {
+         name: "ILA JOSHI MA'AM",
+         img: "/images/team/Ila Joshi.png",
+         role: "Director ",
+         social: ["", "", ""]
+     },
+     {
          name: "SHRINJAL GUPTA",
          img: "/images/team/Shrinjal.jpg",
          role: "Director ",
@@ -13,61 +19,61 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "RADHIKA JANGRA",
-         img: "/images/team/radhhika.png",
+         img: "/images/team/radhhika.png.jpg",
          role: "Chief of executions",
          social: ["", "", ""]
      },
      {
          name: "GAUTAM KUMAR",
-         img: "/images/team/Gautam_Sir.jpg",
+         img: "/images/team/gautamsir.jpg",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "VANSHAJ JAIMAN",
-         img: "/images/team/Vanshaj Sir.jpeg.jpg",
+         img: "/images/team/vanshaj.jpeg",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "RIKA VERMA",
-         img: "/images/team/Rika Maam.JPG",
+         img: "/images/team/rikamaam.jpg",
          role: "Senior Advisor",
          social: ["", "", ""]
      },
      {
          name: "MANAS MITTAL",
-         img: "/images/team/Manas.jpg",
+         img: "/images/team/manas.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "YUUV MITTAL",
-         img: "/images/team/Yuuv.jpg",
+         img: "/images/team/yuuv.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "ANIMA SHUKLA",
-         img: "/images/team/Anima.jpeg.jpg",
+         img: "/images/team/anima.jpg",
          role: "Head of Delegate",
          social: ["", "", ""]
      },
      {
          name: "MRADUL VARSHNEY",
-         img: "/images/team/mradul_sir.jpg",
+         img: "/images/team/mradulsir.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "VAIBHAV KUMAR",
-         img: "/images/team/Vaibhav.jpg",
+         img: "/images/team/vaibhav.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
      {
          name: "SAUMYA BANSAL",
-         img: "/images/team/Saumya.jpeg.jpg",
+         img: "/images/team/Saumya.jpg",
          role: "Head of Digital Design",
          social: ["", "", ""]
      },
@@ -97,7 +103,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      },
      {
          name: "PRARIT AGARWAL",
-         img: "/images/team/Prerit Sir.jpg",
+         img: "/images/team/Prarit Sir.jpg",
          role: "Joust Advisor",
          social: ["", "", ""]
      },

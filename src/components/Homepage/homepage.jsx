@@ -1,13 +1,13 @@
 import "./homepage.css";
 import React, { useEffect, useState } from "react";
 import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
-import Greeting from "../Greeting/Greeting";
+// import { Modal } from 'react-responsive-modal';
+// import Greeting from "../Greeting/Greeting";
 
 
 const Homepage = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const cursordot = document.querySelector("#cursor-dot");
@@ -59,8 +59,8 @@ const Homepage = () => {
     setIsMobileMenuOpen(false);
   };
 
-  const onOpenModal = () => setOpen(true);
-  const onCloseModal = () => setOpen(false);
+  // const onOpenModal = () => setOpen(true);
+  // const onCloseModal = () => setOpen(false);
 
   return (
     <>
@@ -109,7 +109,8 @@ const Homepage = () => {
             <div className="hline1"></div>
             <div className="place">BATTLEFIELD OF WORDS</div>
             <div className="hline2"></div>
-            <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
+            <a href="https://drive.google.com/file/d/1cg1j3tLW3BWsCb4HH7HlagjQCXYtZErP/view?usp=sharing" className="knowMoreButton1"><div className="knowMoreButton">Invitation</div></a>
+            {/* <div className="knowMoreButton" onClick={onOpenModal}>Invitation</div>
             <Modal
               open={open}
               onClose={onCloseModal}
@@ -129,7 +130,7 @@ const Homepage = () => {
               }
               } closeOnOverlayClick={false}>
               <Greeting />
-            </Modal>
+            </Modal> */}
           </div>
         </div>
 

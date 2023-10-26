@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;500;700&family=Ysabeau+SC:wght@300&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;500;700&family=Ysabeau+SC:wght@300&display=swap');
+
+*{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -139,7 +140,7 @@
 }
 
 .rightSide .knowMoreButton {
-    margin: 1.5% auto;
+    margin: 3% auto;
     background-color: #FFC72C;
     color: black;
     width: fit-content;
@@ -150,6 +151,10 @@
     font-weight: 500;
     text-transform: uppercase;
     transition: transform 0.5s ease-in-out;
+}
+
+.knowMoreButton1{
+    text-decoration: none;
 }
 
 .rightSide .knowMoreButton:hover {

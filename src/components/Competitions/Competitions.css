@@ -1,5 +1,6 @@
 .headingbox{
     position: relative;
+    padding:2%;
 }
 
 .headingbox .headingc {
@@ -44,8 +45,7 @@
 }
 
 .event9{
-    margin-top:30%;
-    transform: scale(2);
+    margin-top:15%;
 }
 
 .applynow:hover{
@@ -60,7 +60,8 @@
 
 @media only screen and (max-width:820px){
     .event9{
-        margin-top:40%;
+        margin-top:28%;
+        transform: scale(1.7);
         padding:0 15%;
     }
 }
