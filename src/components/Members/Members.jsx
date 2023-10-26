@@ -74,7 +74,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
      {
          name: "ANIMA SHUKLA",
          img: "/images/team/anima.jpg",
-         role: "Head of Delegate Affairs",
+         role: "Head of Marketing",
          social: ["", "", ""]
      },
      {
