@@ -48,7 +48,7 @@ const Events = () => {
                   className="unhrcimg"
                   onClick={onOpenModal1}
                 /> 
-                <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+                <div className="eyeopen"><i class="fa-regular fa-eye" onClick={onOpenModal1}></i></div>
                 </div>
               <Modal
                 open={open1}
@@ -121,7 +121,7 @@ const Events = () => {
             <div className="left">
               <div className="eye">
               <img src="./images/aippm.png" alt="" onClick={onOpenModal2} />
-              <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+              <div className="eyeopen"><i class="fa-regular fa-eye" onClick={onOpenModal2}></i></div>
               </div>
               <Modal
                 open={open2}
@@ -178,7 +178,7 @@ const Events = () => {
             <div className="left">
              <div className="eye">
              <img src="./images/unep.png" alt="" onClick={onOpenModal3} />
-             <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+             <div className="eyeopen"><i class="fa-regular fa-eye" onClick={onOpenModal3}></i></div>
              </div>
               <Modal
                 open={open3}
@@ -249,7 +249,7 @@ const Events = () => {
             <div className="left">
               <div className="eye">
               <img src="./images/ip.png" alt="" onClick={onOpenModal4} />
-              <div className="eyeopen"><i class="fa-regular fa-eye"></i></div>
+              <div className="eyeopen"><i class="fa-regular fa-eye" onClick={onOpenModal4}></i></div>
               </div>
               <Modal
                 open={open4}

@@ -137,6 +137,11 @@
 .eyeopen{
     position: absolute;
     top:0;
+    transition: transform 0.7s ease;
+}
+
+.eyeopen:hover{
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width:620px){
